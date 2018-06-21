@@ -11,6 +11,7 @@ eval_path = "./evaluation"
 eval_temp = os.path.join(eval_path, "temp")
 eval_script = os.path.join(eval_path, "conlleval")
 
+# 原始的ChineseNER
 
 def get_logger(log_file):
     logger = logging.getLogger(log_file)
