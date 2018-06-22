@@ -15,6 +15,7 @@ def load_sentences(path, lower, zeros):
     sentence = []
     num = 0
     for line in codecs.open(path, 'r', 'utf8'):
+        # print('path: ', path)
         num+=1
         line = zero_digits(line.rstrip()) if zeros else line.rstrip()
         # print(list(line))
@@ -30,6 +31,7 @@ def load_sentences(path, lower, zeros):
                 # word[0] = " "
             else:
                 word= line.split()
+            # print('word: ', word)
             assert len(word) >= 2, print([word[0]])
             sentence.append(word)
     if len(sentence) > 0:

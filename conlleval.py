@@ -71,6 +71,7 @@ def evaluate(iterable, options=None):
     last_guessed = 'O'        # previously identified chunk tag
     last_guessed_type = ''    # type of previous chunk tag in corpus
 
+    print('iterable: ', iterable)
     for line in iterable:
         line = line.rstrip('\r\n')
 
@@ -278,6 +279,7 @@ def start_of_chunk(prev_tag, tag, prev_type, type_):
 
 
 def return_report(input_file):
+    print('input_file: ', input_file)
     with codecs.open(input_file, "r", "utf8") as f:
         counts = evaluate(f)
     return report_notprint(counts)

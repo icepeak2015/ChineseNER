@@ -1,0 +1,5 @@
+1. 训练模型，使用默认参数
+python3 main.py --train=True --clean=True
+
+2. 对输入句子进行测试
+python3 main.py
