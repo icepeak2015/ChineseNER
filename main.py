@@ -1,19 +1,17 @@
 # encoding=utf8
-import os
+
 import codecs
 import pickle
 import itertools
 from collections import OrderedDict
+import os
 
 import tensorflow as tf
 import numpy as np
 from model import Model
-from loader import load_sentences, update_tag_scheme
-from loader import char_mapping, tag_mapping
-from loader import augment_with_pretrained, prepare_dataset
-from utils import get_logger, make_path, clean, create_model, save_model
-from utils import print_config, save_config, load_config, test_ner
-from data_utils import load_word2vec, create_input, input_from_line, BatchManager
+import loader
+import utils
+import data_utils
 
 flags = tf.app.flags
 flags.DEFINE_boolean("clean",       False,      "clean train folder")
@@ -82,7 +80,7 @@ def config_model(char_to_id, tag_to_id):
 def evaluate(sess, model, name, data, id_to_tag, logger):
     logger.info("evaluate:{}".format(name))
     ner_results = model.evaluate(sess, data, id_to_tag)
-    eval_lines = test_ner(ner_results, FLAGS.result_path)
+    eval_lines = utils.test_ner(ner_results, FLAGS.result_path)
     for line in eval_lines:
         logger.info(line)
     f1 = float(eval_lines[1].strip().split()[-1])
@@ -103,20 +101,23 @@ def evaluate(sess, model, name, data, id_to_tag, logger):
 
 def train():
     # load data sets
-    train_sentences = load_sentences(FLAGS.train_file, FLAGS.lower, FLAGS.zeros)
-    dev_sentences = load_sentences(FLAGS.dev_file, FLAGS.lower, FLAGS.zeros)
-    test_sentences = load_sentences(FLAGS.test_file, FLAGS.lower, FLAGS.zeros)
+    # sentences 的格式如下  ['在', 'O'], ['厦', 'B-LOC'], ['门', 'I-LOC']
+    train_sentences = loader.load_sentences(FLAGS.train_file, FLAGS.lower, FLAGS.zeros)
+    dev_sentences = loader.load_sentences(FLAGS.dev_file, FLAGS.lower, FLAGS.zeros)
+    test_sentences = loader.load_sentences(FLAGS.test_file, FLAGS.lower, FLAGS.zeros)
 
     # Use selected tagging scheme (IOB / IOBES)
-    update_tag_scheme(train_sentences, FLAGS.tag_schema)
-    update_tag_scheme(test_sentences, FLAGS.tag_schema)
+    # update_tag_scheme 后sentence没有太大的变化
+    loader.update_tag_scheme(train_sentences, FLAGS.tag_schema)
+    loader.update_tag_scheme(test_sentences, FLAGS.tag_schema)
 
     # create maps if not exist
+    # 是否存在maps.pkl文件，
     if not os.path.isfile(FLAGS.map_file):
         # create dictionary for word
         if FLAGS.pre_emb:
-            dico_chars_train = char_mapping(train_sentences, FLAGS.lower)[0]
-            dico_chars, char_to_id, id_to_char = augment_with_pretrained(
+            dico_chars_train = loader.char_mapping(train_sentences, FLAGS.lower)[0]
+            dico_chars, char_to_id, id_to_char = loader.augment_with_pretrained(
                 dico_chars_train.copy(),
                 FLAGS.emb_file,
                 list(itertools.chain.from_iterable(
@@ -124,54 +125,56 @@ def train():
                 )
             )
         else:
-            _c, char_to_id, id_to_char = char_mapping(train_sentences, FLAGS.lower)
+            _c, char_to_id, id_to_char = loader.char_mapping(train_sentences, FLAGS.lower)
 
         # Create a dictionary and a mapping for tags
-        _t, tag_to_id, id_to_tag = tag_mapping(train_sentences)
+        _t, tag_to_id, id_to_tag = loader.tag_mapping(train_sentences)
         with open(FLAGS.map_file, "wb") as f:
             pickle.dump([char_to_id, id_to_char, tag_to_id, id_to_tag], f)
     else:
         with open(FLAGS.map_file, "rb") as f:
             char_to_id, id_to_char, tag_to_id, id_to_tag = pickle.load(f)
 
+    print('tag_to_id: ', tag_to_id)
     # prepare data, get a collection of list containing index
-    train_data = prepare_dataset(
+    train_data = loader.prepare_dataset(
         train_sentences, char_to_id, tag_to_id, FLAGS.lower
     )
-    dev_data = prepare_dataset(
+    dev_data = loader.prepare_dataset(
         dev_sentences, char_to_id, tag_to_id, FLAGS.lower
     )
-    test_data = prepare_dataset(
+    test_data = loader.prepare_dataset(
         test_sentences, char_to_id, tag_to_id, FLAGS.lower
     )
     print("%i / %i / %i sentences in train / dev / test." % (
         len(train_data), 0, len(test_data)))
 
-    train_manager = BatchManager(train_data, FLAGS.batch_size)
-    dev_manager = BatchManager(dev_data, 100)
-    test_manager = BatchManager(test_data, 100)
+    train_manager = data_utils.BatchManager(train_data, FLAGS.batch_size)
+    dev_manager = data_utils.BatchManager(dev_data, 100)
+    test_manager = data_utils.BatchManager(test_data, 100)
     # make path for store log and model if not exist
-    make_path(FLAGS)
+    utils.make_path(FLAGS)
     if os.path.isfile(FLAGS.config_file):
-        config = load_config(FLAGS.config_file)
+        config = utils.load_config(FLAGS.config_file)
     else:
         config = config_model(char_to_id, tag_to_id)
-        save_config(config, FLAGS.config_file)
-    make_path(FLAGS)
+        utils.save_config(config, FLAGS.config_file)
+    utils.make_path(FLAGS)
 
-    log_path = os.path.join("log", FLAGS.log_file)
-    logger = get_logger(log_path)
-    print_config(config, logger)
+    log_path = os.path.join("log", FLAGS.log_file)      # ./log/train.log
+    logger = utils.get_logger(log_path)
+    utils.print_config(config, logger)
 
     # limit GPU memory
     tf_config = tf.ConfigProto()
     tf_config.gpu_options.allow_growth = True
     steps_per_epoch = train_manager.len_data
     with tf.Session(config=tf_config) as sess:
-        model = create_model(sess, Model, FLAGS.ckpt_path, load_word2vec, config, id_to_char, logger)
+        model = utils.create_model(sess, Model, FLAGS.ckpt_path, data_utils.load_word2vec, config, id_to_char, logger)
         logger.info("start training")
         loss = []
-        for i in range(100):
+        for i in range(10):
+            logger.info('epoch: {}'.format(i))
             for batch in train_manager.iter_batch(shuffle=True):
                 step, batch_loss = model.run_step(sess, True, batch)
                 loss.append(batch_loss)
@@ -184,41 +187,39 @@ def train():
 
             best = evaluate(sess, model, "dev", dev_manager, id_to_tag, logger)
             if best:
-                save_model(sess, model, FLAGS.ckpt_path, logger)
+                utils.save_model(sess, model, FLAGS.ckpt_path, logger)
             evaluate(sess, model, "test", test_manager, id_to_tag, logger)
 
-
+# 对输入的句子进行NER
 def evaluate_line():
-    config = load_config(FLAGS.config_file)
-    logger = get_logger(FLAGS.log_file)
+    config = utils.load_config(FLAGS.config_file)       # 读取配置文件
+    logger = utils.get_logger(FLAGS.log_file)           # log文件名及路径
     # limit GPU memory
-    tf_config = tf.ConfigProto()
+    tf_config = tf.ConfigProto()                  # TensorFlow 会话的配置项
     tf_config.gpu_options.allow_growth = True
-    with open(FLAGS.map_file, "rb") as f:
+    with open(FLAGS.map_file, "rb") as f:        # map_file 中存储着字与id，tag与id之间的对应关系
         char_to_id, id_to_char, tag_to_id, id_to_tag = pickle.load(f)
-    with tf.Session(config=tf_config) as sess:
-        model = create_model(sess, Model, FLAGS.ckpt_path, load_word2vec, config, id_to_char, logger)
-        while True:
-            # try:
-            #     line = input("请输入测试句子:")
-            #     result = model.evaluate_line(sess, input_from_line(line, char_to_id), id_to_tag)
-            #     print(result)
-            # except Exception as e:
-            #     logger.info(e)
+        # char_to_id  每个字对应的id， id_to_char 两者是相对应的
 
+    with tf.Session(config=tf_config) as sess:
+        model = utils.create_model(sess, Model, FLAGS.ckpt_path, data_utils.load_word2vec, config, id_to_char, logger)
+        while True:
+            try:
                 line = input("请输入测试句子:")
-                result = model.evaluate_line(sess, input_from_line(line, char_to_id), id_to_tag)
+                result = model.evaluate_line(sess, data_utils.input_from_line(line, char_to_id), id_to_tag)
                 print(result)
+            except Exception as e:
+                logger.info(e)
 
 
 def main(_):
 
     if FLAGS.train:
         if FLAGS.clean:
-            clean(FLAGS)
+            utils.clean(FLAGS)    # 清空之前的参数和训练模型model
         train()
     else:
-        evaluate_line()
+        evaluate_line()     # 识别句子中的实体
 
 
 if __name__ == "__main__":

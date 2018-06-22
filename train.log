@@ -1,0 +1,185 @@
+2018-01-10 08:55:59,651 - train.log - INFO - Created model with fresh parameters.
+2018-01-10 08:56:02,457 - train.log - INFO - Load pre-trained embedding.
+2018-01-10 11:46:26,665 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-15 15:03:11,746 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-15 16:12:30,023 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-15 16:32:44,744 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-15 16:36:57,517 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-15 16:44:08,240 - train.log - INFO - TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+Caused by op 'char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3', defined at:
+  File "main.py", line 224, in <module>
+    if __name__ == "__main__":
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\platform\app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "main.py", line 220, in main
+    else:
+  File "main.py", line 203, in evaluate_line
+    with tf.Session(config=tf_config) as sess:
+  File "E:\百度云同步盘\Works\ChineseNER-master\utils.py", line 173, in create_model
+    model = Model_class(config)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 60, in __init__
+    lstm_outputs = self.biLSTM_layer(lstm_inputs, self.lstm_dim, self.lengths)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 132, in biLSTM_layer
+    sequence_length=lengths)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 401, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=bw_scope)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 574, in dynamic_rnn
+    dtype=dtype)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in _dynamic_rnn_loop
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in <genexpr>
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 334, in stack
+    return self.gather(math_ops.range(0, self.size()), name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 360, in gather
+    element_shape=element_shape)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\gen_data_flow_ops.py", line 1814, in _tensor_array_gather_v3
+    element_shape=element_shape, name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+UnimplementedError (see above for traceback): TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+2018-01-15 16:44:08,325 - train.log - INFO - TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+Caused by op 'char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3', defined at:
+  File "main.py", line 224, in <module>
+    if __name__ == "__main__":
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\platform\app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "main.py", line 220, in main
+    else:
+  File "main.py", line 203, in evaluate_line
+    with tf.Session(config=tf_config) as sess:
+  File "E:\百度云同步盘\Works\ChineseNER-master\utils.py", line 173, in create_model
+    model = Model_class(config)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 60, in __init__
+    lstm_outputs = self.biLSTM_layer(lstm_inputs, self.lstm_dim, self.lengths)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 132, in biLSTM_layer
+    sequence_length=lengths)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 401, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=bw_scope)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 574, in dynamic_rnn
+    dtype=dtype)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in _dynamic_rnn_loop
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in <genexpr>
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 334, in stack
+    return self.gather(math_ops.range(0, self.size()), name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 360, in gather
+    element_shape=element_shape)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\gen_data_flow_ops.py", line 1814, in _tensor_array_gather_v3
+    element_shape=element_shape, name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+UnimplementedError (see above for traceback): TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+2018-01-15 16:44:08,494 - train.log - INFO - TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray, char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/fw/fw/while/Exit_1)]]
+
+Caused by op 'char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/TensorArrayGatherV3', defined at:
+  File "main.py", line 224, in <module>
+    if __name__ == "__main__":
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\platform\app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "main.py", line 220, in main
+    else:
+  File "main.py", line 203, in evaluate_line
+    with tf.Session(config=tf_config) as sess:
+  File "E:\百度云同步盘\Works\ChineseNER-master\utils.py", line 173, in create_model
+    model = Model_class(config)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 60, in __init__
+    lstm_outputs = self.biLSTM_layer(lstm_inputs, self.lstm_dim, self.lengths)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 132, in biLSTM_layer
+    sequence_length=lengths)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 375, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=fw_scope)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 574, in dynamic_rnn
+    dtype=dtype)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in _dynamic_rnn_loop
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in <genexpr>
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 334, in stack
+    return self.gather(math_ops.range(0, self.size()), name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 360, in gather
+    element_shape=element_shape)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\gen_data_flow_ops.py", line 1814, in _tensor_array_gather_v3
+    element_shape=element_shape, name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+UnimplementedError (see above for traceback): TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray, char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/fw/fw/while/Exit_1)]]
+
+2018-01-15 16:45:10,184 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-18 17:16:24,818 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-18 19:19:49,172 - train.log - INFO - TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+Caused by op 'char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3', defined at:
+  File "main.py", line 224, in <module>
+    if __name__ == "__main__":
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\platform\app.py", line 48, in run
+    _sys.exit(main(_sys.argv[:1] + flags_passthrough))
+  File "main.py", line 220, in main
+    else:
+  File "main.py", line 203, in evaluate_line
+    with tf.Session(config=tf_config) as sess:
+  File "E:\百度云同步盘\Works\ChineseNER-master\utils.py", line 173, in create_model
+    model = Model_class(config)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 60, in __init__
+    lstm_outputs = self.biLSTM_layer(lstm_inputs, self.lstm_dim, self.lengths)
+  File "E:\百度云同步盘\Works\ChineseNER-master\model.py", line 132, in biLSTM_layer
+    sequence_length=lengths)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 401, in bidirectional_dynamic_rnn
+    time_major=time_major, scope=bw_scope)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 574, in dynamic_rnn
+    dtype=dtype)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in _dynamic_rnn_loop
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\rnn.py", line 740, in <genexpr>
+    final_outputs = tuple(ta.stack() for ta in output_final_ta)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 334, in stack
+    return self.gather(math_ops.range(0, self.size()), name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\tensor_array_ops.py", line 360, in gather
+    element_shape=element_shape)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\ops\gen_data_flow_ops.py", line 1814, in _tensor_array_gather_v3
+    element_shape=element_shape, name=name)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 767, in apply_op
+    op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 2506, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\shanyh\Anaconda3\lib\site-packages\tensorflow\python\framework\ops.py", line 1269, in __init__
+    self._traceback = _extract_stack()
+
+UnimplementedError (see above for traceback): TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
+	 [[Node: char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/bw/bw/TensorArray, char_BiLSTM/bidirectional_rnn/bw/bw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/bw/bw/while/Exit_1)]]
+
+2018-01-18 19:20:10,151 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-18 19:27:04,139 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-01-18 19:27:16,015 - train.log - INFO - name 'lenghts' is not defined
+2018-01-18 19:27:49,775 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-02-26 18:35:40,230 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-02-26 18:48:21,523 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-03-14 14:46:34,569 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-06-21 16:54:02,428 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt

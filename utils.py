@@ -5,12 +5,14 @@ import logging
 
 import tensorflow as tf
 from conlleval import return_report
+import codecs
 
 models_path = "./models"
 eval_path = "./evaluation"
 eval_temp = os.path.join(eval_path, "temp")
 eval_script = os.path.join(eval_path, "conlleval")
 
+# 日志记录函数
 def get_logger(log_file):
     logger = logging.getLogger(log_file)
     logger.setLevel(logging.DEBUG)
@@ -54,7 +56,7 @@ def test_ner(results, path):
     Run perl script to evaluate model
     """
     output_file = os.path.join(path, "ner_predict.utf8")
-    with open(output_file, "w") as f:
+    with codecs.open(output_file, "w", "utf-8") as f:
         to_write = []
         for block in results:
             for line in block:
@@ -170,8 +172,10 @@ def create_model(session, Model_class, path, load_vec, config, id_to_char, logge
     # create model, reuse parameters if exists
     model = Model_class(config)
 
+    # 有训练好的模型，直接加载；没有模型，直接训练
     ckpt = tf.train.get_checkpoint_state(path)
     if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):
+        #ckpt.model_checkpoint_paht 并不是一个文件，而是多个后缀的文件
         logger.info("Reading model parameters from %s" % ckpt.model_checkpoint_path)
         model.saver.restore(session, ckpt.model_checkpoint_path)
     else:

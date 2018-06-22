@@ -122,7 +122,8 @@ def insert_singletons(words, singletons, p=0.5):
             new_words.append(word)
     return new_words
 
-
+# 调用jieba对句子进行分词
+# 分词结果，单独的字 0，词的开始 1，词的结尾 3， 词的中间 2
 def get_seg_features(string):
     """
     Segment text with jieba
@@ -203,7 +204,7 @@ def load_word2vec(emb_path, id_to_word, word_dim, old_weights):
     ))
     return new_weights
 
-
+# 将全角字符转为半角字符
 def full_to_half(s):
     """
     Convert full-width character to half-width one 
@@ -261,7 +262,7 @@ def replace_html(s):
     s = s.replace("\xa0", " ")
     return(s)
 
-
+# [句子中每个字对应的 ID] [jieba 分词后，每个字的位置（0-3）]
 def input_from_line(line, char_to_id):
     """
     Take sentence data and return an input for
@@ -276,6 +277,7 @@ def input_from_line(line, char_to_id):
                    for char in line]])
     inputs.append([get_seg_features(line)])
     inputs.append([[]])
+    # print('chars: ', inputs)
     return inputs
 
 

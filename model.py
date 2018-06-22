@@ -220,8 +220,11 @@ class Model(object):
             return global_step, loss
         else:
             lengths, logits = sess.run([self.lengths, self.logits], feed_dict)
+            # logits 为输入句子中每个字对应的Tag的数值，每个字为一个固定长度的list
             return lengths, logits
 
+    # 将每个字对应的13个Tag的数值，转化为相应的 Tag label
+    # 使用Viterbi算法
     def decode(self, logits, lengths, matrix):
         """
         :param logits: [batch_size, num_steps, num_tags]float32, logits
@@ -267,9 +270,12 @@ class Model(object):
                 results.append(result)
         return results
 
+    # 测试输入语句的命名实体
     def evaluate_line(self, sess, inputs, id_to_tag):
         trans = self.trans.eval()
         lengths, scores = self.run_step(sess, False, inputs)
+        print('lengths: {}   scores: {}', lengths, scores)
         batch_paths = self.decode(scores, lengths, trans)
+        print('batch_paths: {}', batch_paths)
         tags = [id_to_tag[idx] for idx in batch_paths[0]]
         return result_to_json(inputs[0][0], tags)
