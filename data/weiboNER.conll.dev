@@ -112,8 +112,13 @@
 百 O
 姓 O
 心 O
+<<<<<<< HEAD
 新 B-GPE
 乡 I-GPE
+=======
+新 B-GPE.NAM
+乡 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 新 O
 闻 O
 网 O
@@ -122,8 +127,13 @@
 这 O
 几 O
 天 O
+<<<<<<< HEAD
 新 B-GPE
 乡 I-GPE
+=======
+新 B-GPE.NAM
+乡 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 天 O
 气 O
 还 O
@@ -241,8 +251,13 @@
 爸 O
 了 O
 。 O
+<<<<<<< HEAD
 许 B-PER
 坚 I-PER
+=======
+许 B-PER.NAM
+坚 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 你 O
 始 O
 终 O
@@ -288,7 +303,11 @@
 和 O
 我 O
 的 O
+<<<<<<< HEAD
 小 O
+=======
+小 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 伙 O
 伴 O
 们 O
@@ -305,8 +324,13 @@
 超 O
 美 O
 的 O
+<<<<<<< HEAD
 乐 B-PER
 乐 I-PER
+=======
+乐 B-PER.NAM
+乐 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 看 O
 照 O
@@ -428,10 +452,17 @@
 我 O
 们 O
 和 O
+<<<<<<< HEAD
 扎 B-PER
 克 I-PER
 伯 I-PER
 格 I-PER
+=======
+扎 B-PER.NAM
+克 I-PER.NAM
+伯 I-PER.NAM
+格 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 是 O
 完 O
 全 O
@@ -608,10 +639,17 @@
 起 O
 来 O
 
+<<<<<<< HEAD
 武 B-ORG
 大 I-ORG
 妹 I-ORG
 子 I-ORG
+=======
+武 B-ORG.NAM
+大 I-ORG.NAM
+妹 I-ORG.NAM
+子 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 录 O
 的 O
 ， O
@@ -623,15 +661,26 @@
 最 O
 爱 O
 的 O
+<<<<<<< HEAD
 贾 B-PER
 老 I-PER
 板 I-PER
+=======
+贾 B-PER.NAM
+老 I-PER.NAM
+板 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 翻 O
 唱 O
 歌 O
 曲 O
+<<<<<<< HEAD
 中 B-GPE
 国 I-GPE
+=======
+中 B-GPE.NAM
+国 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 原 O
 创 O
 音 O
@@ -650,10 +699,17 @@
 收 O
 没 O
 收 O
+<<<<<<< HEAD
 新 B-ORG
 浪 I-ORG
 校 I-ORG
 园 I-ORG
+=======
+新 B-ORG.NAM
+浪 I-ORG.NAM
+校 I-ORG.NAM
+园 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 挖 O
 鼻 O
 屎 O
@@ -675,8 +731,13 @@
 到 O
 制 O
 度 O
+<<<<<<< HEAD
 桂 B-GPE
 林 I-GPE
+=======
+桂 B-GPE.NAM
+林 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 校 O
 园 O
 挖 O
@@ -695,8 +756,13 @@
 
 回 O
 复 O
+<<<<<<< HEAD
 雯 B-PER
 子 I-PER
+=======
+雯 B-PER.NAM
+子 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 小 O
 菇 O
 凉 O
@@ -716,8 +782,13 @@
 你 O
 爱 O
 你 O
+<<<<<<< HEAD
 雯 B-PER
 子 I-PER
+=======
+雯 B-PER.NAM
+子 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 小 O
 菇 O
 凉 O
@@ -727,9 +798,15 @@
 逼 O
 青 O
 年 O
+<<<<<<< HEAD
 杨 B-PER
 素 I-PER
 晗 I-PER
+=======
+杨 B-PER.NAM
+素 I-PER.NAM
+晗 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 骗 O
 你 O
 干 O
@@ -751,8 +828,13 @@
 以 O
 后 O
 跟 O
+<<<<<<< HEAD
 领 B-PER
 导 I-PER
+=======
+领 B-PER.NOM
+导 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 你 O
 混 O
 了 O
@@ -871,11 +953,19 @@
 爱 O
 花 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 性 I-PER
 ， O
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+性 I-PER.NOM
+， O
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 如 O
 花 O
 。 O
@@ -886,14 +976,24 @@
 他 O
 人 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 性 I-PER
+=======
+女 B-PER.NOM
+性 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 自 O
 信 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 更 O
 美 O
 。 O
@@ -908,15 +1008,25 @@
 生 O
 子 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 会 O
 生 O
 活 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 更 O
 幸 O
 福 O
@@ -927,14 +1037,24 @@
 做 O
 饭 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 独 O
 立 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 更 O
 可 O
 爱 O
@@ -944,14 +1064,24 @@
 读 O
 书 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 睿 O
 智 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 更 O
 魅 O
 力 O
@@ -969,14 +1099,24 @@
 远 O
 行 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 这 O
 样 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 似 O
 一 O
 缕 O
@@ -993,6 +1133,15 @@
 好 O
 可 O
 爱 O
+<<<<<<< HEAD
+=======
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 天 O
 气 O
 太 O
@@ -1010,9 +1159,15 @@
 
 我 O
 叫 O
+<<<<<<< HEAD
 赵 B-PER
 新 I-PER
 民 I-PER
+=======
+赵 B-PER.NAM
+新 I-PER.NAM
+民 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 全 O
 球 O
 最 O
@@ -1041,10 +1196,17 @@
 了 O
 呢 O
 ， O
+<<<<<<< HEAD
 宁 B-ORG
 波 I-ORG
 晚 I-ORG
 报 I-ORG
+=======
+宁 B-ORG.NAM
+波 I-ORG.NAM
+晚 I-ORG.NAM
+报 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 网 O
 友 O
 播 O
@@ -1059,11 +1221,19 @@
 飘 O
 也 O
 在 O
+<<<<<<< HEAD
 沧 B-LOC
 海 O
 路 O
 和 O
 百 B-LOC
+=======
+沧 B-LOC.NAM
+海 O
+路 O
+和 O
+百 B-LOC.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 丈 O
 东 O
 路 O
@@ -1089,8 +1259,13 @@
 在 O
 飘 O
 
+<<<<<<< HEAD
 阿 B-PER
 袁 I-PER
+=======
+阿 B-PER.NAM
+袁 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 在 O
 外 O
 地 O
@@ -1141,8 +1316,13 @@
 几 O
 天 O
 ， O
+<<<<<<< HEAD
 阿 B-PER
 袁 I-PER
+=======
+阿 B-PER.NAM
+袁 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 收 O
 到 O
 家 O
@@ -1155,9 +1335,15 @@
 住 O
 。 O
 
+<<<<<<< HEAD
 刘 B-PER
 心 I-PER
 车 I-PER
+=======
+刘 B-PER.NAM
+心 I-PER.NAM
+车 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 推 O
 不 O
 动 O
@@ -1187,26 +1373,44 @@
 人 O
 了 O
 
+<<<<<<< HEAD
 萧 B-PER
 萧 I-PER
 静 I-PER
+=======
+萧 B-PER.NAM
+萧 I-PER.NAM
+静 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 明 O
 天 O
 有 O
 明 O
 天 O
+<<<<<<< HEAD
 徐 B-PER
 妍 I-PER
 徐 B-PER
 妍 I-PER
+=======
+徐 B-PER.NAM
+妍 I-PER.NAM
+徐 B-PER.NAM
+妍 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 匹 O
 克 O
 球 O
 星 O
+<<<<<<< HEAD
 中 B-GPE
 国 I-GPE
+=======
+中 B-GPE.NAM
+国 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 行 O
 我 O
 用 O
@@ -1220,6 +1424,7 @@
 克 O
 球 O
 星 O
+<<<<<<< HEAD
 安 B-PER
 德 I-PER
 鲁 I-PER
@@ -1227,6 +1432,15 @@
 德 I-PER
 洛 I-PER
 克 I-PER
+=======
+安 B-PER.NAM
+德 I-PER.NAM
+鲁 I-PER.NAM
+古 I-PER.NAM
+德 I-PER.NAM
+洛 I-PER.NAM
+克 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 拼 O
 图 O
@@ -1239,11 +1453,19 @@
 加 O
 月 O
 日 O
+<<<<<<< HEAD
 兰 B-PER
 德 I-PER
 里 I-PER
 匹 I-PER
 克 I-PER
+=======
+兰 B-PER.NAM
+德 I-PER.NAM
+里 I-PER.NAM
+匹 I-PER.NAM
+克 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 球 O
 迷 O
 见 O
@@ -1252,12 +1474,21 @@
 ， O
 夏 O
 木 O
+<<<<<<< HEAD
 谢 B-PER
 小 I-PER
 玲 I-PER
 好 O
 男 B-PER
 人 I-PER
+=======
+谢 B-PER.NAM
+小 I-PER.NAM
+玲 I-PER.NAM
+好 O
+男 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 就 O
 是 O
 我 O
@@ -1274,9 +1505,15 @@
 不 O
 想 O
 与 O
+<<<<<<< HEAD
 兰 B-PER
 德 I-PER
 里 I-PER
+=======
+兰 B-PER.NAM
+德 I-PER.NAM
+里 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 面 O
 对 O
 面 O
@@ -1552,12 +1789,21 @@
 
 他 O
 是 O
+<<<<<<< HEAD
 韩 B-GPE
 国 I-GPE
 我 I-GPE
 是 O
 歌 B-PER
 手 I-PER
+=======
+韩 B-GPE.NAM
+国 I-GPE.NAM
+我 I-GPE.NAM
+是 O
+歌 B-PER.NOM
+手 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 拿 O
 冠 O
 军 O
@@ -1580,8 +1826,13 @@
 打 O
 人 O
 的 O
+<<<<<<< HEAD
 教 B-PER
 官 I-PER
+=======
+教 B-PER.NOM
+官 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 吗 O
 ？ O
 怒 O
@@ -1664,8 +1915,13 @@
 何 O
 在 O
 ， O
+<<<<<<< HEAD
 政 B-ORG
 府 I-ORG
+=======
+政 B-ORG.NOM
+府 I-ORG.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 给 O
 你 O
 救 O
@@ -1830,12 +2086,21 @@
 分 O
 钟 O
 
+<<<<<<< HEAD
 赛 B-PER
 琳 I-PER
 曼 I-PER
 琦 I-PER
 张 B-PER
 羽 I-PER
+=======
+赛 B-PER.NAM
+琳 I-PER.NAM
+曼 I-PER.NAM
+琦 I-PER.NAM
+张 B-PER.NAM
+羽 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 姑 O
 娘 O
 笑 O
@@ -1846,9 +2111,15 @@
 唐 O
 唐 O
 唐 O
+<<<<<<< HEAD
 唐 B-PER
 秋 I-PER
 云 I-PER
+=======
+唐 B-PER.NAM
+秋 I-PER.NAM
+云 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 霖 O
 魏 O
 腾 O
@@ -1866,6 +2137,20 @@
 先 O
 生 O
 
+<<<<<<< HEAD
+=======
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+��� O
+
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 新 O
 浪 O
 微 O
@@ -1903,12 +2188,21 @@
 分 O
 享 O
 ； O
+<<<<<<< HEAD
 新 B-PER
 增 I-PER
 、 O
 浪 B-PER
 小 I-PER
 花 I-PER
+=======
+新 B-PER.NAM
+增 I-PER.NAM
+、 O
+浪 B-PER.NAM
+小 I-PER.NAM
+花 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 表 O
 情 O
 。 O
@@ -1980,19 +2274,32 @@
 转 O
 啊 O
 啊 O
+<<<<<<< HEAD
 宇 B-PER
 多 I-PER
 田 I-PER
 光 I-PER
+=======
+宇 B-PER.NAM
+多 I-PER.NAM
+田 I-PER.NAM
+光 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 之 O
 樱 O
 流 O
 泪 O
 泪 O
 泪 O
+<<<<<<< HEAD
 明 B-PER
 日 I-PER
 香 I-PER
+=======
+明 B-PER.NAM
+日 I-PER.NAM
+香 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 啊 O
 丽 O
 
@@ -2020,8 +2327,13 @@
 态 O
 。 O
 
+<<<<<<< HEAD
 男 B-PER
 女 B-PER
+=======
+男 B-PER.NOM
+女 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 那 O
 回 O
 事 O
@@ -2080,8 +2392,13 @@
 钟 O
 看 O
 年 O
+<<<<<<< HEAD
 日 B-GPE
 本 I-GPE
+=======
+日 B-GPE.NAM
+本 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 动 O
 画 O
 发 O
@@ -2198,11 +2515,19 @@
 兔 O
 小 O
 白 O
+<<<<<<< HEAD
 曼 B-ORG
 联 I-ORG
 柯 B-PER
 柏 I-PER
 文 I-PER
+=======
+曼 B-ORG.NAM
+联 I-ORG.NAM
+柯 B-PER.NAM
+柏 I-PER.NAM
+文 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 感 O
 谢 O
 您 O
@@ -2210,8 +2535,13 @@
 年 O
 来 O
 为 O
+<<<<<<< HEAD
 曼 B-ORG
 联 I-ORG
+=======
+曼 B-ORG.NAM
+联 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 付 O
 出 O
 的 O
@@ -2234,8 +2564,13 @@
 伟 O
 大 O
 的 O
+<<<<<<< HEAD
 教 B-PER
 练 I-PER
+=======
+教 B-PER.NOM
+练 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 群 O
 星 O
@@ -2251,6 +2586,7 @@
 来 O
 袭 O
 ＃ O
+<<<<<<< HEAD
 魏 B-PER
 晨 I-PER
 魏 B-PER
@@ -2264,11 +2600,27 @@
 班 I-ORG
 婉 B-PER
 玲 I-PER
+=======
+魏 B-PER.NAM
+晨 I-PER.NAM
+魏 B-PER.NAM
+晨 I-PER.NAM
+魏 B-PER.NAM
+晨 I-PER.NAM
+
+级 B-ORG.NAM
+工 I-ORG.NAM
+管 I-ORG.NAM
+班 I-ORG.NAM
+婉 B-PER.NAM
+玲 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 恋 O
 家 O
 的 O
 孩 O
 子 O
+<<<<<<< HEAD
 春 B-PER
 田 I-PER
 雷 B-PER
@@ -2292,6 +2644,31 @@
 陈 B-PER
 泽 I-PER
 伟 I-PER
+=======
+春 B-PER.NAM
+田 I-PER.NAM
+雷 B-PER.NAM
+州 I-PER.NAM
+行 I-PER.NAM
+叶 B-PER.NAM
+雨 I-PER.NAM
+凤 B-PER.NAM
+连 I-PER.NAM
+韋 I-PER.NAM
+文 B-PER.NAM
+珊 I-PER.NAM
+荧 I-PER.NAM
+瑜 I-PER.NAM
+黄 B-PER.NAM
+土 I-PER.NAM
+玲 I-PER.NAM
+小 B-PER.NAM
+婷 I-PER.NAM
+余 I-PER.NAM
+陈 B-PER.NAM
+泽 I-PER.NAM
+伟 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 腹 O
 黑 O
 麟 O
@@ -2409,7 +2786,11 @@
 已 O
 成 O
 为 O
+<<<<<<< HEAD
 微 B-PER
+=======
+微 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 博 O
 准 O
 会 O
@@ -2558,8 +2939,13 @@
 一 O
 笑 O
 一 O
+<<<<<<< HEAD
 小 B-PER
 贩 I-PER
+=======
+小 B-PER.NOM
+贩 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 街 O
 边 O
 卖 O
@@ -2591,8 +2977,13 @@
 人 O
 ， O
 对 O
+<<<<<<< HEAD
 小 B-PER
 贩 I-PER
+=======
+小 B-PER.NOM
+贩 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 说 O
 枣 O
 不 O
@@ -2642,8 +3033,13 @@
 去 O
 了 O
 。 O
+<<<<<<< HEAD
 小 B-PER
 贩 I-PER
+=======
+小 B-PER.NOM
+贩 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 不 O
 解 O
 的 O
@@ -2689,8 +3085,13 @@
 是 O
 混 O
 搭 O
+<<<<<<< HEAD
 女 B-PER
 王 I-PER
+=======
+女 B-PER.NOM
+王 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 清 O
 新 O
 的 O
@@ -2824,7 +3225,11 @@
 上 O
 ， O
 和 O
+<<<<<<< HEAD
 老 B-PER
+=======
+老 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 公 O
 一 O
 起 O
@@ -2970,9 +3375,15 @@
 偏 O
 离 O
 了 O
+<<<<<<< HEAD
 毛 B-PER
 爷 I-PER
 爷 I-PER
+=======
+毛 B-PER.NAM
+爷 I-PER.NAM
+爷 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 思 O
 想 O
@@ -3112,9 +3523,15 @@
 
 警 O
 方 O
+<<<<<<< HEAD
 薛 B-PER
 蛮 I-PER
 子 I-PER
+=======
+薛 B-PER.NAM
+蛮 I-PER.NAM
+子 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 涉 O
 嫖 O
 娼 O
@@ -3191,9 +3608,15 @@
 
 我 O
 叫 O
+<<<<<<< HEAD
 赵 B-PER
 新 I-PER
 民 I-PER
+=======
+赵 B-PER.NAM
+新 I-PER.NAM
+民 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 哈 O
 哈 O
 哈 O
@@ -3205,7 +3628,11 @@
 哈 O
 哈 O
 
+<<<<<<< HEAD
 电 B-LOC
+=======
+电 B-LOC.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 器 O
 城 O
 新 O
@@ -3331,9 +3758,15 @@
 密 O
 好 O
 多 O
+<<<<<<< HEAD
 女 B-PER
 明 I-PER
 星 I-PER
+=======
+女 B-PER.NOM
+明 I-PER.NOM
+星 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 艳 O
 照 O
@@ -3357,8 +3790,13 @@
 真 O
 正 O
 让 O
+<<<<<<< HEAD
 女 B-PER
 性 I-PER
+=======
+女 B-PER.NOM
+性 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 难 O
 过 O
 的 O
@@ -3391,8 +3829,13 @@
 ， O
 比 O
 如 O
+<<<<<<< HEAD
 舒 B-PER
 淇 I-PER
+=======
+舒 B-PER.NAM
+淇 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 。 O
 
 我 O
@@ -3409,9 +3852,15 @@
 選 O
 之 O
 ， O
+<<<<<<< HEAD
 田 B-PER
 喜 I-PER
 碧 I-PER
+=======
+田 B-PER.NAM
+喜 I-PER.NAM
+碧 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 誰 O
 是 O
@@ -3423,8 +3872,13 @@
 度 O
 最 O
 佳 O
+<<<<<<< HEAD
 藝 B-PER
 人 I-PER
+=======
+藝 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 呢 O
 ？ O
 快 O
@@ -3457,12 +3911,21 @@
 喔 O
 新 O
 浪 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
 新 O
 浪 O
 台 B-GPE
 灣 I-GPE
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+新 O
+浪 O
+台 B-GPE.NAM
+灣 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 娛 O
 樂 O
 投 O
@@ -3480,9 +3943,15 @@
 思 O
 密 O
 达 O
+<<<<<<< HEAD
 曾 B-PER
 若 I-PER
 彤 I-PER
+=======
+曾 B-PER.NAM
+若 I-PER.NAM
+彤 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 奥 O
 特 O
@@ -3501,8 +3970,13 @@
 练 O
 成 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 真 O
 正 O
 想 O
@@ -3639,8 +4113,13 @@
 个 O
 宿 O
 管 O
+<<<<<<< HEAD
 阿 B-PER
 姨 I-PER
+=======
+阿 B-PER.NOM
+姨 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 气 O
 到 O
 我 O
@@ -3653,8 +4132,13 @@
 是 O
 我 O
 们 O
+<<<<<<< HEAD
 宿 B-GPE
 舍 I-GPE
+=======
+宿 B-GPE.NAM
+舍 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 最 O
 后 O
 一 O
@@ -3761,6 +4245,7 @@
 择 O
 
 唉 O
+<<<<<<< HEAD
 马 B-PER
 靖 I-PER
 昊 I-PER
@@ -3769,6 +4254,16 @@
 计 O
 厚 B-PER
 林 I-PER
+=======
+马 B-PER.NAM
+靖 I-PER.NAM
+昊 I-PER.NAM
+说 O
+会 O
+计 O
+厚 B-PER.NAM
+林 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 兄 O
 弟 O
 ， O
@@ -3777,9 +4272,15 @@
 对 O
 不 O
 起 O
+<<<<<<< HEAD
 李 B-PER
 厚 I-PER
 林 I-PER
+=======
+李 B-PER.NAM
+厚 I-PER.NAM
+林 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ： O
 我 O
 想 O
@@ -3885,8 +4386,13 @@
 一 O
 件 O
 。 O
+<<<<<<< HEAD
 威 B-PER
 驰 I-PER
+=======
+威 B-PER.NAM
+驰 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 为 O
 青 O
 春 O
@@ -3921,9 +4427,15 @@
 么 O
 了 O
 
+<<<<<<< HEAD
 利 B-GPE
 物 I-GPE
 浦 I-GPE
+=======
+利 B-GPE.NAM
+物 I-GPE.NAM
+浦 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 当 O
 年 O
 可 O
@@ -3963,15 +4475,26 @@
 么 O
 今 O
 天 O
+<<<<<<< HEAD
 意 B-GPE
 大 I-GPE
 利 I-GPE
+=======
+意 B-GPE.NAM
+大 I-GPE.NAM
+利 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 不 O
 能 O
 呢 O
 ？ O
+<<<<<<< HEAD
 巴 B-PER
 神 I-PER
+=======
+巴 B-PER.NAM
+神 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 下 O
 半 O
@@ -4009,8 +4532,13 @@ e O
 1 O
 0 O
 大 O
+<<<<<<< HEAD
 美 B-PER
 女 I-PER
+=======
+美 B-PER.NOM
+女 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 之 O
 最 O
 】 O
@@ -4020,9 +4548,15 @@ e O
 给 O
 了 O
 “ O
+<<<<<<< HEAD
 刘 B-PER
 诗 I-PER
 诗 I-PER
+=======
+刘 B-PER.NAM
+诗 I-PER.NAM
+诗 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ” O
 ， O
 你 O
@@ -4126,8 +4660,13 @@ x O
 / O
 / O
 @ O
+<<<<<<< HEAD
 妹 B-PER
 纸 I-PER
+=======
+妹 B-PER.NOM
+纸 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 要 O
 么 O
 瘦 O
@@ -4135,9 +4674,15 @@ x O
 么 O
 攻 O
 : O
+<<<<<<< HEAD
 方 B-PER
 小 I-PER
 雷 I-PER
+=======
+方 B-PER.NAM
+小 I-PER.NAM
+雷 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 叫 O
 你 O
@@ -4301,9 +4846,15 @@ x O
 
 # O
 当 O
+<<<<<<< HEAD
 吴 B-PER
 秀 I-PER
 波 I-PER
+=======
+吴 B-PER.NAM
+秀 I-PER.NAM
+波 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 遇 O
 上 O
 新 O
@@ -4337,6 +4888,7 @@ W O
 R O
 Z O
 
+<<<<<<< HEAD
 新 B-ORG
 浪 I-ORG
 微 I-ORG
@@ -4344,6 +4896,15 @@ Z O
 客 I-ORG
 户 I-ORG
 端 I-ORG
+=======
+新 B-ORG.NAM
+浪 I-ORG.NAM
+微 I-ORG.NAM
+博 I-ORG.NAM
+客 I-ORG.NAM
+户 I-ORG.NAM
+端 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 版 O
 全 O
 新 O
@@ -4402,8 +4963,13 @@ Z O
 ， O
 带 O
 着 O
+<<<<<<< HEAD
 微 B-ORG
 博 I-ORG
+=======
+微 B-ORG.NAM
+博 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 去 O
 旅 O
 行 O
@@ -4421,8 +4987,13 @@ Z O
 怕 O
 摔 O
 的 O
+<<<<<<< HEAD
 孩 B-PER
 纸 I-PER
+=======
+孩 B-PER.NOM
+纸 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 还 O
 有 O
@@ -4430,8 +5001,13 @@ Z O
 子 O
 里 O
 的 O
+<<<<<<< HEAD
 宝 B-PER
 宝 I-PER
+=======
+宝 B-PER.NOM
+宝 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 祝 O
 你 O
@@ -4454,11 +5030,19 @@ Z O
 溜 O
 冰 O
 ， O
+<<<<<<< HEAD
 宝 B-PER
 宝 I-PER
 在 O
 妈 B-PER
 妈 I-PER
+=======
+宝 B-PER.NOM
+宝 I-PER.NOM
+在 O
+妈 B-PER.NOM
+妈 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 肚 O
 子 O
 里 O
@@ -4467,8 +5051,13 @@ Z O
 鸡 O
 冻 O
 ， O
+<<<<<<< HEAD
 爸 B-PER
 爸 I-PER
+=======
+爸 B-PER.NOM
+爸 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 说 O
 你 O
 以 O
@@ -4481,8 +5070,13 @@ Z O
 贪 O
 玩 O
 的 O
+<<<<<<< HEAD
 孩 B-PER
 纸 I-PER
+=======
+孩 B-PER.NOM
+纸 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 【 O
 4 O
@@ -4617,8 +5211,13 @@ Z O
 不 O
 心 O
 心 O
+<<<<<<< HEAD
 丫 B-PER
 头 I-PER
+=======
+丫 B-PER.NAM
+头 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 哒 O
 哒 O
 夏 O
@@ -4701,8 +5300,13 @@ x O
 / O
 / O
 @ O
+<<<<<<< HEAD
 杨 B-PER
 壮 I-PER
+=======
+杨 B-PER.NAM
+壮 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 想 O
 象 O
@@ -4710,8 +5314,13 @@ x O
 / O
 / O
 @ O
+<<<<<<< HEAD
 王 B-PER
 冉 I-PER
+=======
+王 B-PER.NAM
+冉 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 如 O
 果 O
@@ -4738,6 +5347,7 @@ x O
 / O
 / O
 @ O
+<<<<<<< HEAD
 博 B-PER
 洛 I-PER
 尼 I-PER
@@ -4749,6 +5359,19 @@ x O
 毕 B-PER
 加 I-PER
 索 I-PER
+=======
+博 B-PER.NAM
+洛 I-PER.NAM
+尼 I-PER.NAM
+蔡 B-PER.NAM
+明 I-PER.NAM
+: O
+很 O
+应 O
+毕 B-PER.NAM
+加 I-PER.NAM
+索 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 句 O
 话 O
@@ -4800,9 +5423,15 @@ x O
 
 俩 O
 个 O
+<<<<<<< HEAD
 富 B-PER
 二 I-PER
 代 I-PER
+=======
+富 B-PER.NOM
+二 I-PER.NOM
+代 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 。 O
 。 O
 。 O
@@ -4814,8 +5443,13 @@ x O
 饿 O
 的 O
 人 O
+<<<<<<< HEAD
 陈 B-PER
 雨 I-PER
+=======
+陈 B-PER.NAM
+雨 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 奇 O
 葩 O
 的 O
@@ -4953,8 +5587,13 @@ V O
 太 O
 阳 O
 困 O
+<<<<<<< HEAD
 尼 B-PER
 尼 I-PER
+=======
+尼 B-PER.NAM
+尼 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 年 O
 前 O
@@ -4979,7 +5618,11 @@ V O
 一 O
 样 O
 的 O
+<<<<<<< HEAD
 对 B-PER
+=======
+对 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 手 O
 ， O
 就 O
@@ -4988,7 +5631,11 @@ V O
 一 O
 样 O
 的 O
+<<<<<<< HEAD
 队 B-PER
+=======
+队 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 友 O
 ， O
 说 O
@@ -5032,8 +5679,13 @@ V O
 到 O
 了 O
 ， O
+<<<<<<< HEAD
 北 B-GPE
 京 I-GPE
+=======
+北 B-GPE.NAM
+京 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 肯 O
 定 O
 很 O
@@ -5121,8 +5773,13 @@ V O
 刚 O
 刚 O
 在 O
+<<<<<<< HEAD
 淘 B-ORG
 宝 I-ORG
+=======
+淘 B-ORG.NAM
+宝 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 发 O
 布 O
 了 O
@@ -5170,9 +5827,15 @@ V O
 喜 O
 欢 O
 @ O
+<<<<<<< HEAD
 淘 B-ORG
 宝 I-ORG
 网 I-ORG
+=======
+淘 B-ORG.NAM
+宝 I-ORG.NAM
+网 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 h O
 t O
 t O
@@ -5264,6 +5927,7 @@ D O
 猫 O
 ] O
 @ O
+<<<<<<< HEAD
 小 B-PER
 清 I-PER
 新 I-PER
@@ -5273,6 +5937,17 @@ D O
 
 日 B-GPE
 本 I-GPE
+=======
+小 B-PER.NAM
+清 I-PER.NAM
+新 I-PER.NAM
+的 I-PER.NAM
+大 I-PER.NAM
+蒜 I-PER.NAM
+
+日 B-GPE.NAM
+本 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 个 O
 很 O
@@ -5350,8 +6025,13 @@ D O
 要 O
 配 O
 个 O
+<<<<<<< HEAD
 女 B-PER
 的 I-PER
+=======
+女 B-PER.NOM
+的 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 。 O
 我 O
 是 O
@@ -5360,8 +6040,13 @@ D O
 笑 O
 话 O
 的 O
+<<<<<<< HEAD
 美 B-PER
 女 I-PER
+=======
+美 B-PER.NOM
+女 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 不 O
 是 O
 重 O
@@ -5401,6 +6086,7 @@ D O
 非 O
 文 O
 艺 O
+<<<<<<< HEAD
 女 B-PER
 青 I-PER
 年 I-PER
@@ -5408,6 +6094,15 @@ D O
 邵 B-PER
 小 I-PER
 敏 I-PER
+=======
+女 B-PER.NOM
+青 I-PER.NOM
+年 I-PER.NOM
+之 O
+邵 B-PER.NAM
+小 I-PER.NAM
+敏 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 金 O
 牛 O
 寵 O
@@ -5417,9 +6112,15 @@ D O
 我 O
 不 O
 是 O
+<<<<<<< HEAD
 杨 B-PER
 天 I-PER
 宁 I-PER
+=======
+杨 B-PER.NAM
+天 I-PER.NAM
+宁 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 难 O
 道 O
 你 O
@@ -5427,9 +6128,15 @@ D O
 
 我 O
 的 O
+<<<<<<< HEAD
 朋 B-PER
 友 I-PER
 们 I-PER
+=======
+朋 B-PER.NOM
+友 I-PER.NOM
+们 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 你 O
 们 O
 快 O
@@ -5445,15 +6152,25 @@ D O
 你 O
 们 O
 的 O
+<<<<<<< HEAD
 孩 B-PER
 子 I-PER
+=======
+孩 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 扔 O
 掉 O
 个 O
 坏 O
+<<<<<<< HEAD
 男 B-PER
 人 I-PER
+=======
+男 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 应 O
 该 O
 高 O
@@ -5508,8 +6225,13 @@ e O
 不 O
 能 O
 和 O
+<<<<<<< HEAD
 父 B-PER
 母 I-PER
+=======
+父 B-PER.NOM
+母 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 去 O
 说 O
 ， O
@@ -5518,8 +6240,13 @@ e O
 我 O
 们 O
 有 O
+<<<<<<< HEAD
 朋 B-PER
 友 I-PER
+=======
+朋 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 大 O
 部 O
@@ -5536,8 +6263,13 @@ e O
 ， O
 因 O
 为 O
+<<<<<<< HEAD
 父 B-PER
 母 I-PER
+=======
+父 B-PER.NOM
+母 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 想 O
 法 O
@@ -5707,9 +6439,15 @@ b O
 星 O
 期 O
 四 O
+<<<<<<< HEAD
 比 B-ORG
 斯 I-ORG
 特 I-ORG
+=======
+比 B-ORG.NAM
+斯 I-ORG.NAM
+特 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 部 O
 分 O
 商 O
@@ -5721,6 +6459,7 @@ b O
 补 O
 货 O
 。 O
+<<<<<<< HEAD
 伯 B-ORG
 明 I-ORG
 翰 I-ORG
@@ -5728,6 +6467,15 @@ b O
 胖 I-ORG
 车 I-ORG
 服 I-ORG
+=======
+伯 B-ORG.NAM
+明 I-ORG.NAM
+翰 I-ORG.NAM
+小 I-ORG.NAM
+胖 I-ORG.NAM
+车 I-ORG.NAM
+服 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 发 O
 起 O
 另 O
@@ -5736,9 +6484,15 @@ b O
 开 O
 学 O
 前 O
+<<<<<<< HEAD
 比 B-ORG
 斯 I-ORG
 特 I-ORG
+=======
+比 B-ORG.NAM
+斯 I-ORG.NAM
+特 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 购 O
 物 O
 一 O
@@ -5772,14 +6526,21 @@ P O
 地 O
 点 O
 ： O
+<<<<<<< HEAD
 唐 B-LOC
 人 I-LOC
 街 I-LOC
+=======
+唐 B-LOC.NAM
+人 I-LOC.NAM
+街 I-LOC.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 老 O
 日 O
 进 O
 行 O
 （ O
+<<<<<<< HEAD
 汉 B-ORG
 丽 I-ORG
 宝 I-ORG
@@ -5791,6 +6552,19 @@ g I-ORG
 w B-ORG
 o I-ORG
 k I-ORG
+=======
+汉 B-ORG.NAM
+丽 I-ORG.NAM
+宝 I-ORG.NAM
+旁 O
+， O
+B B-ORG.NAM
+i I-ORG.NAM
+g I-ORG.NAM
+w B-ORG.NAM
+o I-ORG.NAM
+k I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 对 O
 面 O
 ） O
@@ -5915,8 +6689,13 @@ z O
 免 O
 费 O
 游 O
+<<<<<<< HEAD
 台 B-GPE
 湾 I-GPE
+=======
+台 B-GPE.NAM
+湾 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 # O
 # O
 春 O
@@ -6006,12 +6785,21 @@ J O
 哼 O
 
 @ O
+<<<<<<< HEAD
 望 B-ORG
 康 I-ORG
 动 I-ORG
 物 I-ORG
 医 I-ORG
 院 I-ORG
+=======
+望 B-ORG.NAM
+康 I-ORG.NAM
+动 I-ORG.NAM
+物 I-ORG.NAM
+医 I-ORG.NAM
+院 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 连 O
 锁 O
 机 O
@@ -6282,8 +7070,13 @@ c O
 不 O
 错 O
 ， O
+<<<<<<< HEAD
 女 B-PER
 儿 I-PER
+=======
+女 B-PER.NOM
+儿 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 穿 O
 上 O
 去 O
@@ -6346,11 +7139,19 @@ b O
 新 O
 了 O
 # O
+<<<<<<< HEAD
 微 B-ORG
 博 I-ORG
 客 I-ORG
 户 I-ORG
 端 I-ORG
+=======
+微 B-ORG.NAM
+博 I-ORG.NAM
+客 I-ORG.NAM
+户 I-ORG.NAM
+端 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 冬 O
 季 O
 版 O
@@ -6469,12 +7270,21 @@ q O
 9 O
 
 # O
+<<<<<<< HEAD
 美 B-ORG
 丽 I-ORG
 说 I-ORG
 福 I-ORG
 利 I-ORG
 社 I-ORG
+=======
+美 B-ORG.NAM
+丽 I-ORG.NAM
+说 I-ORG.NAM
+福 I-ORG.NAM
+利 I-ORG.NAM
+社 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 # O
 试 O
 试 O
@@ -6495,16 +7305,27 @@ q O
 _ O
 黛 O
 @ O
+<<<<<<< HEAD
 英 B-PER
 子 I-PER
+=======
+英 B-PER.NAM
+子 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 - O
 殷 O
 @ O
 5 O
 - O
+<<<<<<< HEAD
 叶 B-PER
 小 I-PER
 丢 I-PER
+=======
+叶 B-PER.NAM
+小 I-PER.NAM
+丢 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 @ O
 美 O
 丽 O
@@ -6548,8 +7369,13 @@ A O
 剛 O
 好 O
 奇 O
+<<<<<<< HEAD
 童 B-PER
 鞋 I-PER
+=======
+童 B-PER.NOM
+鞋 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 打 O
 電 O
 話 O
@@ -6589,8 +7415,13 @@ s O
 # O
 年 O
 度 O
+<<<<<<< HEAD
 藝 B-PER
 人 I-PER
+=======
+藝 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 大 O
 賞 O
 票 O
@@ -6603,6 +7434,7 @@ s O
 封 O
 面 O
 人 O
+<<<<<<< HEAD
 物 I-PER
 # O
 ， O
@@ -6610,6 +7442,15 @@ s O
 彭 B-PER
 于 I-PER
 晏 I-PER
+=======
+物 I-PER.NOM
+# O
+， O
+@ O
+彭 B-PER.NAM
+于 I-PER.NAM
+晏 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 誰 O
 是 O
@@ -6621,8 +7462,13 @@ s O
 度 O
 最 O
 佳 O
+<<<<<<< HEAD
 藝 B-PER
 人 I-PER
+=======
+藝 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 呢 O
 ？ O
 快 O
@@ -6670,10 +7516,17 @@ y O
 喔 O
 ! O
 @ O
+<<<<<<< HEAD
 新 B-ORG
 浪 I-ORG
 女 I-ORG
 人 I-ORG
+=======
+新 B-ORG.NAM
+浪 I-ORG.NAM
+女 I-ORG.NAM
+人 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 e O
 L O
 a O
@@ -6682,12 +7535,21 @@ i O
 e O
 s O
 @ O
+<<<<<<< HEAD
 新 B-ORG
 浪 I-ORG
 台 I-ORG
 灣 I-ORG
 娛 I-ORG
 樂 I-ORG
+=======
+新 B-ORG.NAM
+浪 I-ORG.NAM
+台 I-ORG.NAM
+灣 I-ORG.NAM
+娛 I-ORG.NAM
+樂 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 投 O
 票 O
 網 O
@@ -6726,9 +7588,15 @@ h O
 。 O
 虽 O
 然 O
+<<<<<<< HEAD
 新 B-PER
 娘 I-PER
 子 I-PER
+=======
+新 B-PER.NOM
+娘 I-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 还 O
 没 O
 找 O
@@ -6738,21 +7606,36 @@ h O
 呢 O
 。 O
 @ O
+<<<<<<< HEAD
 南 B-PER
 宁 I-PER
 巴 I-PER
 黎 I-PER
 婚 I-PER
 纱 I-PER
+=======
+南 B-PER.NAM
+宁 I-PER.NAM
+巴 I-PER.NAM
+黎 I-PER.NAM
+婚 I-PER.NAM
+纱 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 [ O
 偷 O
 笑 O
 ] O
 
 # O
+<<<<<<< HEAD
 钟 B-PER
 汉 I-PER
 良 I-PER
+=======
+钟 B-PER.NAM
+汉 I-PER.NAM
+良 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 1 O
 1 O
 3 O
@@ -6902,8 +7785,13 @@ k O
 怒 O
 ] O
 
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 最 O
 美 O
 的 O
@@ -6941,8 +7829,13 @@ k O
 棍 O
 节 O
 
+<<<<<<< HEAD
 姐 B-PER
 姐 I-PER
+=======
+姐 B-PER.NOM
+姐 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 二 O
 逼 O
@@ -6961,8 +7854,13 @@ k O
 明 O
 儿 O
 做 O
+<<<<<<< HEAD
 伴 B-PER
 娘 I-PER
+=======
+伴 B-PER.NOM
+娘 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 去 O
 啦 O
 我 O
@@ -7025,6 +7923,7 @@ B O
 
 謝 O
 謝 O
+<<<<<<< HEAD
 瀋 B-ORG
 陽 I-ORG
 皇 I-ORG
@@ -7033,6 +7932,16 @@ B O
 鑫 I-ORG
 酒 I-ORG
 店 I-ORG
+=======
+瀋 B-ORG.NAM
+陽 I-ORG.NAM
+皇 I-ORG.NAM
+朝 I-ORG.NAM
+萬 I-ORG.NAM
+鑫 I-ORG.NAM
+酒 I-ORG.NAM
+店 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 感 O
 動 O
@@ -7053,8 +7962,13 @@ B O
 啟 O
 程 O
 去 O
+<<<<<<< HEAD
 北 B-GPE
 京 I-GPE
+=======
+北 B-GPE.NAM
+京 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ！ O
 
 @ O
@@ -7075,8 +7989,13 @@ c O
 心 O
 心 O
 心 O
+<<<<<<< HEAD
 泰 B-PER
 迪 I-PER
+=======
+泰 B-PER.NAM
+迪 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 正 O
 感 O
 动 O
@@ -7089,8 +8008,13 @@ c O
 子 O
 吼 O
 起 O
+<<<<<<< HEAD
 宋 B-PER
 茜 I-PER
+=======
+宋 B-PER.NAM
+茜 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 你 O
 是 O
 我 O
@@ -7101,12 +8025,21 @@ c O
 喷 O
 哈 O
 哈 O
+<<<<<<< HEAD
 泰 B-PER
 迪 I-PER
 宋 B-PER
 茜 I-PER
 姐 I-PER
 姐 I-PER
+=======
+泰 B-PER.NAM
+迪 I-PER.NAM
+宋 B-PER.NAM
+茜 I-PER.NAM
+姐 I-PER.NAM
+姐 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 声 O
 音 O
@@ -7114,6 +8047,7 @@ c O
 甜 O
 泪 O
 泪 O
+<<<<<<< HEAD
 宋 B-PER
 茜 I-PER
 、 O
@@ -7128,6 +8062,22 @@ c O
 、 O
 宋 B-PER
 茜 I-PER
+=======
+宋 B-PER.NAM
+茜 I-PER.NAM
+、 O
+宋 B-PER.NAM
+茜 I-PER.NAM
+、 O
+宋 B-PER.NAM
+茜 I-PER.NAM
+、 O
+宋 B-PER.NAM
+茜 I-PER.NAM
+、 O
+宋 B-PER.NAM
+茜 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 。 O
 心 O
 
@@ -7236,9 +8186,15 @@ o O
 u O
 ， O
 这 O
+<<<<<<< HEAD
 主 B-PER
 持 I-PER
 人 I-PER
+=======
+主 B-PER.NOM
+持 I-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 长 O
 的 O
 很 O
@@ -7262,26 +8218,43 @@ u O
 。 O
 
 和 O
+<<<<<<< HEAD
 男 B-PER
 友 I-PER
+=======
+男 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 看 O
 电 O
 视 O
 ， O
 剧 O
 中 O
+<<<<<<< HEAD
 女 B-PER
 主 I-PER
 角 I-PER
+=======
+女 B-PER.NOM
+主 I-PER.NOM
+角 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 身 O
 患 O
 白 O
 血 O
 病 O
 ， O
+<<<<<<< HEAD
 男 B-PER
 主 I-PER
 角 I-PER
+=======
+男 B-PER.NOM
+主 I-PER.NOM
+角 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 不 O
 离 O
 不 O
@@ -7310,8 +8283,13 @@ u O
 么 O
 ？ O
 ” O
+<<<<<<< HEAD
 男 B-PER
 友 I-PER
+=======
+男 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 坚 O
 决 O
 地 O
@@ -7603,9 +8581,15 @@ j O
 么 O
 胖 O
 啊 O
+<<<<<<< HEAD
 我 B-PER
 朋 I-PER
 友 I-PER
+=======
+我 B-PER.NOM
+朋 I-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 都 O
 瘦 O
 了 O
@@ -7854,6 +8838,7 @@ M O
 险 O
 ] O
 
+<<<<<<< HEAD
 新 B-ORG
 浪 I-ORG
 微 I-ORG
@@ -7861,6 +8846,15 @@ M O
 客 I-ORG
 户 I-ORG
 端 I-ORG
+=======
+新 B-ORG.NAM
+浪 I-ORG.NAM
+微 I-ORG.NAM
+博 I-ORG.NAM
+客 I-ORG.NAM
+户 I-ORG.NAM
+端 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 版 O
 全 O
 新 O
@@ -8079,8 +9073,13 @@ M O
 的 O
 ？ O
 
+<<<<<<< HEAD
 荷 B-GPE
 兰 I-GPE
+=======
+荷 B-GPE.NAM
+兰 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 天 O
 啊 O
@@ -8235,6 +9234,7 @@ _ O
 啊 O
 ！ O
 @ O
+<<<<<<< HEAD
 碧 B-PER
 落 I-PER
 食 I-PER
@@ -8244,6 +9244,17 @@ _ O
 晏 B-PER
 小 I-PER
 花 I-PER
+=======
+碧 B-PER.NAM
+落 I-PER.NAM
+食 I-PER.NAM
+人 I-PER.NAM
+来 I-PER.NAM
+@ O
+晏 B-PER.NAM
+小 I-PER.NAM
+花 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 正 O
 太 O
 太 O
@@ -8253,6 +9264,7 @@ _ O
 / O
 / O
 @ O
+<<<<<<< HEAD
 墨 B-PER
 家 I-PER
 道 I-PER
@@ -8264,6 +9276,19 @@ n I-PER
 a I-PER
 花 I-PER
 娘 I-PER
+=======
+墨 B-PER.NAM
+家 I-PER.NAM
+道 I-PER.NAM
+具 I-PER.NAM
+组 I-PER.NAM
+H I-PER.NAM
+a I-PER.NAM
+n I-PER.NAM
+a I-PER.NAM
+花 I-PER.NAM
+娘 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 啊 O
 啊 O
@@ -8271,6 +9296,7 @@ a I-PER
 啊 O
 ！ O
 @ O
+<<<<<<< HEAD
 大 B-PER
 兔 I-PER
 吱 I-PER
@@ -8278,6 +9304,15 @@ a I-PER
 小 I-PER
 小 I-PER
 兔 I-PER
+=======
+大 B-PER.NAM
+兔 I-PER.NAM
+吱 I-PER.NAM
+爱 I-PER.NAM
+小 I-PER.NAM
+小 I-PER.NAM
+兔 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 Q O
 W O
 Q O
@@ -8376,8 +9411,13 @@ Q O
 
 这 O
 个 O
+<<<<<<< HEAD
 重 B-ORG
 医 I-ORG
+=======
+重 B-ORG.NAM
+医 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 天 O
 人 O
@@ -8413,8 +9453,13 @@ Q O
 宝 O
 宝 O
 当 O
+<<<<<<< HEAD
 医 B-PER
 生 I-PER
+=======
+医 B-PER.NOM
+生 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 . O
 . O
 . O
@@ -8430,8 +9475,13 @@ M O
 持 O
 同 O
 同 O
+<<<<<<< HEAD
 刘 B-PER
 同 I-PER
+=======
+刘 B-PER.NAM
+同 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 我 O
 发 O
@@ -8460,16 +9510,26 @@ M O
 呀 O
 
 一 O
+<<<<<<< HEAD
 神 B-PER
 人 I-PER
+=======
+神 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 签 O
 名 O
 ： O
 我 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 神 I-PER
+=======
+女 B-PER.NOM
+神 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 很 O
 完 O
 美 O
@@ -8522,8 +9582,13 @@ M O
 是 O
 看 O
 了 O
+<<<<<<< HEAD
 高 B-PER
 手 I-PER
+=======
+高 B-PER.NOM
+手 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 指 O
 点 O
 才 O
@@ -8535,8 +9600,13 @@ M O
 。 O
 原 O
 来 O
+<<<<<<< HEAD
 女 B-PER
 神 I-PER
+=======
+女 B-PER.NOM
+神 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 经 O
 常 O
 Q O
@@ -8656,8 +9726,13 @@ Q O
 喜 O
 欢 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 生 I-PER
+=======
+女 B-PER.NOM
+生 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 还 O
 在 O
 。 O
@@ -8694,8 +9769,13 @@ Q O
 你 O
 。 O
 在 O
+<<<<<<< HEAD
 大 B-LOC
 学 I-LOC
+=======
+大 B-LOC.NOM
+学 I-LOC.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 中 O
 可 O
 能 O
@@ -8732,8 +9812,13 @@ Q O
 在 O
 合 O
 作 O
+<<<<<<< HEAD
 伙 B-PER
 伴 B-PER
+=======
+伙 B-PER.NOM
+伴 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 丢 O
 失 O
@@ -8744,8 +9829,13 @@ Q O
 更 O
 新 O
 了 O
+<<<<<<< HEAD
 微 B-ORG
 博 I-ORG
+=======
+微 B-ORG.NAM
+博 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 H O
 D O
 3 O
@@ -8862,12 +9952,21 @@ r O
 / O
 / O
 @ O
+<<<<<<< HEAD
 奥 B-ORG
 林 I-ORG
 巴 I-ORG
 斯 I-ORG
 公 I-ORG
 益 I-ORG
+=======
+奥 B-ORG.NAM
+林 I-ORG.NAM
+巴 I-ORG.NAM
+斯 I-ORG.NAM
+公 I-ORG.NAM
+益 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 # O
 奥 O
@@ -8905,7 +10004,11 @@ r O
 场 O
 的 O
 宝 O
+<<<<<<< HEAD
 贝 I-ORG
+=======
+贝 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 们 O
 玩 O
 得 O
@@ -8913,10 +10016,17 @@ r O
 开 O
 心 O
 ， O
+<<<<<<< HEAD
 爸 B-PER
 爸 I-PER
 妈 I-PER
 妈 I-PER
+=======
+爸 B-PER.NOM
+爸 I-PER.NOM
+妈 I-PER.NOM
+妈 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 也 O
 跟 O
 着 O
@@ -8938,7 +10048,11 @@ r O
 家 O
 有 O
 宝 O
+<<<<<<< HEAD
 贝 I-PER
+=======
+贝 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 的 O
 奥 O
 粉 O
@@ -8982,12 +10096,21 @@ r O
 / O
 / O
 @ O
+<<<<<<< HEAD
 大 B-PER
 爱 I-PER
 阿 I-PER
 门 I-PER
 门 I-PER
 门 I-PER
+=======
+大 B-PER.NAM
+爱 I-PER.NAM
+阿 I-PER.NAM
+门 I-PER.NAM
+门 I-PER.NAM
+门 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 一 O
 直 O
@@ -9007,13 +10130,21 @@ r O
 的 O
 图 O
 ， O
+<<<<<<< HEAD
 男 B-PER
+=======
+男 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 用 O
 牛 O
 仔 O
 裤 O
 和 O
+<<<<<<< HEAD
 女 B-PER
+=======
+女 B-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 用 O
 牛 O
 仔 O
@@ -9039,9 +10170,15 @@ r O
 / O
 / O
 @ O
+<<<<<<< HEAD
 梁 B-PER
 嘉 I-PER
 炤 I-PER
+=======
+梁 B-PER.NAM
+嘉 I-PER.NAM
+炤 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 这 O
 是 O
@@ -9086,8 +10223,13 @@ o O
 / O
 / O
 @ O
+<<<<<<< HEAD
 高 B-PER
 手 I-PER
+=======
+高 B-PER.NAM
+手 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 只 O
 是 O
 我 O
@@ -9119,8 +10261,13 @@ e O
 t O
 √ O
 】 O
+<<<<<<< HEAD
 记 B-ORG
 者 I-ORG
+=======
+记 B-ORG.NOM
+者 I-ORG.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 采 O
 访 O
 路 O
@@ -9153,8 +10300,13 @@ t O
 时 O
 间 O
 ， O
+<<<<<<< HEAD
 女 B-PER
 生 I-PER
+=======
+女 B-PER.NOM
+生 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 明 O
 显 O
 是 O
@@ -9173,8 +10325,13 @@ t O
 日 O
 期 O
 ， O
+<<<<<<< HEAD
 男 B-PER
 生 I-PER
+=======
+男 B-PER.NOM
+生 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 揉 O
 揉 O
 她 O
@@ -9196,8 +10353,13 @@ t O
 发 O
 懵 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 友 I-PER
+=======
+女 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 搂 O
 在 O
 怀 O
@@ -9219,8 +10381,13 @@ t O
 个 O
 如 O
 水 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 静 O
 时 O
@@ -9240,8 +10407,13 @@ t O
 个 O
 静 O
 默 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 如 O
 丁 O
@@ -9264,8 +10436,13 @@ t O
 个 O
 善 O
 良 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 心 O
 无 O
@@ -9287,8 +10464,13 @@ t O
 个 O
 坚 O
 韧 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 你 O
 不 O
@@ -9320,16 +10502,26 @@ t O
 个 O
 奋 O
 斗 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 走 O
 在 O
 路 O
 上 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 最 O
 迷 O
 人 O
@@ -9339,15 +10531,25 @@ t O
 目 O
 标 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 最 O
 动 O
 人 O
 。 O
 
+<<<<<<< HEAD
 小 B-ORG
 丁 I-ORG
+=======
+小 B-ORG.NAM
+丁 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 线 O
 上 O
 文 O
@@ -9646,8 +10848,13 @@ n O
 白 O
 癜 O
 风 O
+<<<<<<< HEAD
 患 B-PER
 者 I-PER
+=======
+患 B-PER.NOM
+者 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 健 O
 康 O
 本 O
@@ -9702,10 +10909,17 @@ m O
 我 O
 刚 O
 在 O
+<<<<<<< HEAD
 阿 B-ORG
 里 I-ORG
 巴 I-ORG
 巴 I-ORG
+=======
+阿 B-ORG.NAM
+里 I-ORG.NAM
+巴 I-ORG.NAM
+巴 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 发 O
 布 O
 了 O
@@ -9721,7 +10935,11 @@ m O
 工 O
 作 O
 人 O
+<<<<<<< HEAD
 员 I-ORG
+=======
+员 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 剂 O
 量 O
 监 O
@@ -9788,10 +11006,17 @@ l O
 和 O
 我 O
 的 O
+<<<<<<< HEAD
 小 B-PER
 伙 I-PER
 伴 I-PER
 们 I-PER
+=======
+小 B-PER.NOM
+伙 I-PER.NOM
+伴 I-PER.NOM
+们 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 都 O
 觉 O
 得 O
@@ -9805,8 +11030,13 @@ l O
 @ O
 甜 O
 蜜 O
+<<<<<<< HEAD
 情 B-PER
 侣 I-PER
+=======
+情 B-PER.NOM
+侣 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 吧 O
 : O
 非 O
@@ -9977,11 +11207,19 @@ l O
 @ O
 峥 O
 峥 O
+<<<<<<< HEAD
 妈 B-PER
 咪 I-PER
 _ O
 娃 B-PER
 娃 I-PER
+=======
+妈 B-PER.NOM
+咪 I-PER.NOM
+_ O
+娃 B-PER.NOM
+娃 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 - O
 Y O
 u O
@@ -9993,6 +11231,7 @@ i O
 微 O
 博 O
 
+<<<<<<< HEAD
 光 B-ORG
 大 I-ORG
 银 I-ORG
@@ -10003,6 +11242,18 @@ i O
 博 I-ORG
 小 B-PER
 编 I-PER
+=======
+光 B-ORG.NAM
+大 I-ORG.NAM
+银 I-ORG.NAM
+行 I-ORG.NAM
+新 B-ORG.NAM
+浪 I-ORG.NAM
+微 I-ORG.NAM
+博 I-ORG.NAM
+小 B-PER.NOM
+编 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 开 O
 讲 O
 之 O
@@ -10140,10 +11391,17 @@ Q O
 / O
 / O
 @ O
+<<<<<<< HEAD
 大 B-PER
 象 I-PER
 院 I-PER
 长 I-PER
+=======
+大 B-PER.NAM
+象 I-PER.NAM
+院 I-PER.NAM
+长 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ： O
 转 O
 发 O
@@ -10154,9 +11412,15 @@ Q O
 / O
 / O
 @ O
+<<<<<<< HEAD
 陳 B-PER
 冠 I-PER
 希 I-PER
+=======
+陳 B-PER.NAM
+冠 I-PER.NAM
+希 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 U O
 n O
 c O
@@ -10170,12 +11434,21 @@ e O
 / O
 / O
 @ O
+<<<<<<< HEAD
 含 B-PER
 国 I-PER
 第 I-PER
 一 I-PER
 帅 I-PER
 逼 I-PER
+=======
+含 B-PER.NAM
+国 I-PER.NAM
+第 I-PER.NAM
+一 I-PER.NAM
+帅 I-PER.NAM
+逼 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 哈 O
 哈 O
@@ -10184,6 +11457,7 @@ e O
 / O
 / O
 @ O
+<<<<<<< HEAD
 前 B-PER
 任 I-PER
 是 I-PER
@@ -10191,6 +11465,15 @@ e O
 神 I-PER
 经 I-PER
 病 I-PER
+=======
+前 B-PER.NAM
+任 I-PER.NAM
+是 I-PER.NAM
+个 I-PER.NAM
+神 I-PER.NAM
+经 I-PER.NAM
+病 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 哈 O
 哈 O
@@ -10200,6 +11483,7 @@ e O
 / O
 / O
 @ O
+<<<<<<< HEAD
 酒 B-PER
 足 I-PER
 饭 I-PER
@@ -10207,6 +11491,15 @@ e O
 勾 I-PER
 二 I-PER
 嫂 I-PER
+=======
+酒 B-PER.NAM
+足 I-PER.NAM
+饭 I-PER.NAM
+饱 I-PER.NAM
+勾 I-PER.NAM
+二 I-PER.NAM
+嫂 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 哈 O
 哈 O
@@ -10214,11 +11507,19 @@ e O
 / O
 / O
 @ O
+<<<<<<< HEAD
 奇 B-PER
 葩 I-PER
 小 I-PER
 师 I-PER
 妹 I-PER
+=======
+奇 B-PER.NAM
+葩 I-PER.NAM
+小 I-PER.NAM
+师 I-PER.NAM
+妹 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 哈 O
 哈 O
@@ -10270,8 +11571,13 @@ e O
 睛 O
 大 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 孩 I-PER
+=======
+女 B-PER.NOM
+孩 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 爱 O
 花 O
 钱 O
@@ -10282,9 +11588,15 @@ e O
 毛 O
 长 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 孩 I-PER
 子 I-PER
+=======
+女 B-PER.NOM
+孩 I-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 脾 O
 气 O
 不 O
@@ -10299,8 +11611,13 @@ e O
 鸡 O
 皮 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 子 I-PER
+=======
+女 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 有 O
 福 O
@@ -10360,8 +11677,13 @@ e O
 没 O
 劲 O
 ， O
+<<<<<<< HEAD
 领 B-PER
 导 I-PER
+=======
+领 B-PER.NOM
+导 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 还 O
 让 O
 我 O
@@ -10489,8 +11811,13 @@ D O
 可 O
 遇 O
 到 O
+<<<<<<< HEAD
 知 B-PER
 己 I-PER
+=======
+知 B-PER.NOM
+己 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 真 O
 的 O
 不 O
@@ -10606,9 +11933,15 @@ W O
 ， O
 祝 O
 福 O
+<<<<<<< HEAD
 朋 B-PER
 友 I-PER
 们 I-PER
+=======
+朋 B-PER.NOM
+友 I-PER.NOM
+们 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 和 O
 我 O
 执 O
@@ -10662,8 +11995,13 @@ W O
 也 O
 希 O
 望 O
+<<<<<<< HEAD
 亲 B-PER
 人 I-PER
+=======
+亲 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 健 O
 康 O
 平 O
@@ -10694,8 +12032,13 @@ W O
 蜜 O
 的 O
 ； O
+<<<<<<< HEAD
 夫 B-PER
 妻 I-PER
+=======
+夫 B-PER.NOM
+妻 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 间 O
 的 O
 拥 O
@@ -10708,8 +12051,13 @@ W O
 解 O
 的 O
 ； O
+<<<<<<< HEAD
 朋 B-PER
 友 I-PER
+=======
+朋 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 间 O
 的 O
 拥 O
@@ -10857,8 +12205,13 @@ W O
 梦 O
 ； O
 给 O
+<<<<<<< HEAD
 朋 B-PER
 友 I-PER
+=======
+朋 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 寄 O
 卡 O
 片 O
@@ -11136,8 +12489,13 @@ n O
 费 O
 赢 O
 取 O
+<<<<<<< HEAD
 京 B-ORG
 东 I-ORG
+=======
+京 B-ORG.NAM
+东 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 卡 O
 # O
 [ O
@@ -11221,12 +12579,21 @@ g O
 夜 O
 店 O
 泡 O
+<<<<<<< HEAD
 妞 B-PER
 ， O
 男 B-PER
 男 I-PER
 女 I-PER
 女 I-PER
+=======
+妞 B-PER.NOM
+， O
+男 B-PER.NOM
+男 I-PER.NOM
+女 I-PER.NOM
+女 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 堆 O
 ， O
@@ -11425,8 +12792,13 @@ c O
 更 O
 新 O
 了 O
+<<<<<<< HEAD
 微 B-ORG
 博 I-ORG
+=======
+微 B-ORG.NAM
+博 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 客 O
 户 O
 端 O
@@ -11506,9 +12878,15 @@ c O
 / O
 / O
 @ O
+<<<<<<< HEAD
 任 B-PER
 志 I-PER
 强 I-PER
+=======
+任 B-PER.NAM
+志 I-PER.NAM
+强 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 故 O
 意 O
@@ -11516,8 +12894,13 @@ c O
 / O
 / O
 @ O
+<<<<<<< HEAD
 段 B-PER
 钢 I-PER
+=======
+段 B-PER.NAM
+钢 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 1 O
 、 O
@@ -11593,10 +12976,17 @@ c O
 / O
 / O
 @ O
+<<<<<<< HEAD
 北 B-GPE
 京 I-GPE
 厨 I-GPE
 子 I-GPE
+=======
+北 B-GPE.NAM
+京 I-GPE.NAM
+厨 I-GPE.NAM
+子 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 杀 O
 人 O
@@ -11633,9 +13023,15 @@ c O
 / O
 / O
 @ O
+<<<<<<< HEAD
 陈 B-PER
 士 I-PER
 渠 I-PER
+=======
+陈 B-PER.NAM
+士 I-PER.NAM
+渠 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 个 O
 人 O
@@ -11817,9 +13213,15 @@ s O
 
 我 O
 叫 O
+<<<<<<< HEAD
 赵 B-PER
 新 I-PER
 民 I-PER
+=======
+赵 B-PER.NAM
+新 I-PER.NAM
+民 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 日 O
 一 O
@@ -11842,6 +13244,7 @@ s O
 / O
 / O
 @ O
+<<<<<<< HEAD
 时 B-PER
 光 I-PER
 冲 I-PER
@@ -11851,6 +13254,17 @@ s O
 的 I-PER
 脉 I-PER
 博 I-PER
+=======
+时 B-PER.NAM
+光 I-PER.NAM
+冲 I-PER.NAM
+散 I-PER.NAM
+记 I-PER.NAM
+忆 I-PER.NAM
+的 I-PER.NAM
+脉 I-PER.NAM
+博 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 小 O
 屁 O
@@ -11870,8 +13284,13 @@ s O
 作 O
 业 O
 ， O
+<<<<<<< HEAD
 老 B-PER
 师 I-PER
+=======
+老 B-PER.NOM
+师 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 改 O
 个 O
 作 O
@@ -11884,8 +13303,13 @@ s O
 ～ O
 
 【 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 1 O
 0 O
 个 O
@@ -12025,6 +13449,7 @@ s O
 。 O
 
 据 O
+<<<<<<< HEAD
 美 B-GPE
 国 I-GPE
 弗 B-ORG
@@ -12040,6 +13465,23 @@ s O
 所 I-ORG
 博 B-PER
 士 I-PER
+=======
+美 B-GPE.NAM
+国 I-GPE.NAM
+弗 B-ORG.NAM
+吉 I-ORG.NAM
+尼 I-ORG.NAM
+亚 I-ORG.NAM
+大 I-ORG.NAM
+学 I-ORG.NAM
+生 I-ORG.NAM
+物 I-ORG.NAM
+研 I-ORG.NAM
+究 I-ORG.NAM
+所 I-ORG.NAM
+博 B-PER.NOM
+士 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 最 O
 新 O
 发 O
@@ -12049,8 +13491,13 @@ s O
 爱 O
 中 O
 的 O
+<<<<<<< HEAD
 男 B-PER
 人 I-PER
+=======
+男 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 会 O
 比 O
 平 O
@@ -12064,8 +13511,13 @@ s O
 厘 O
 米 O
 ， O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 则 O
 会 O
 胸 O
@@ -12100,8 +13552,13 @@ s O
 助 O
 一 O
 个 O
+<<<<<<< HEAD
 孩 B-PER
 子 I-PER
+=======
+孩 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 幸 O
 福 O
 一 O
@@ -12119,9 +13576,15 @@ s O
 态 O
 度 O
 。 O
+<<<<<<< HEAD
 老 B-PER
 百 I-PER
 姓 I-PER
+=======
+老 B-PER.NOM
+百 I-PER.NOM
+姓 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 信 O
 赖 O
 ， O
@@ -12319,8 +13782,13 @@ m O
 我 O
 ! O
 祝 O
+<<<<<<< HEAD
 小 B-PER
 编 I-PER
+=======
+小 B-PER.NOM
+编 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 鸿 O
 运 O
 高 O
@@ -12400,10 +13868,17 @@ h O
 完 O
 呀 O
 @ O
+<<<<<<< HEAD
 聚 B-ORG
 美 I-ORG
 优 I-ORG
 品 I-ORG
+=======
+聚 B-ORG.NAM
+美 I-ORG.NAM
+优 I-ORG.NAM
+品 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 有 O
 聚 O
 美 O
@@ -12470,8 +13945,13 @@ T O
 与 O
 您 O
 的 O
+<<<<<<< HEAD
 好 B-PER
 友 I-PER
+=======
+好 B-PER.NOM
+友 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 一 O
 起 O
 战 O
@@ -12576,8 +14056,13 @@ y O
 得 O
 要 O
 有 O
+<<<<<<< HEAD
 对 B-PER
 象 I-PER
+=======
+对 B-PER.NOM
+象 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 有 O
 得 O
@@ -12586,8 +14071,13 @@ y O
 其 O
 次 O
 是 O
+<<<<<<< HEAD
 儿 B-PER
 子 I-PER
+=======
+儿 B-PER.NOM
+子 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 然 O
 后 O
@@ -12962,12 +14452,21 @@ y O
 豪 O
 礼 O
 庆 O
+<<<<<<< HEAD
 御 B-ORG
 香 I-ORG
 君 I-ORG
 旗 I-ORG
 舰 I-ORG
 店 I-ORG
+=======
+御 B-ORG.NAM
+香 I-ORG.NAM
+君 I-ORG.NAM
+旗 I-ORG.NAM
+舰 I-ORG.NAM
+店 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 新 O
 张 O
 # O
@@ -13028,9 +14527,15 @@ O O
 转 O
 载 O
 ] O
+<<<<<<< HEAD
 阿 B-PER
 明 I-PER
 哥 I-PER
+=======
+阿 B-PER.NAM
+明 I-PER.NAM
+哥 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 光 O
 影 O
 第 O
@@ -13038,11 +14543,19 @@ O O
 季 O
 ： O
 《 O
+<<<<<<< HEAD
 河 B-GPE
 南 I-GPE
 云 B-LOC
 台 I-LOC
 山 I-LOC
+=======
+河 B-GPE.NAM
+南 I-GPE.NAM
+云 B-LOC.NAM
+台 I-LOC.NAM
+山 I-LOC.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 》 O
 》 O
 - O
@@ -13097,15 +14610,25 @@ j O
 报 O
 告 O
 : O
+<<<<<<< HEAD
 瑞 B-GPE
 士 I-GPE
+=======
+瑞 B-GPE.NAM
+士 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 再 O
 居 O
 首 O
 位 O
 + O
+<<<<<<< HEAD
 中 B-GPE
 国 I-GPE
+=======
+中 B-GPE.NAM
+国 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 升 O
 至 O
 2 O
@@ -13121,12 +14644,21 @@ j O
 部 O
 位 O
 于 O
+<<<<<<< HEAD
 日 B-GPE
 内 I-GPE
 瓦 I-GPE
 的 O
 世 B-ORG
 界 I-ORG
+=======
+日 B-GPE.NAM
+内 I-GPE.NAM
+瓦 I-GPE.NAM
+的 O
+世 B-ORG.NAM
+界 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 经 O
 济 O
 论 O
@@ -13154,8 +14686,13 @@ j O
 告 O
 》 O
 ， O
+<<<<<<< HEAD
 瑞 B-GPE
 士 I-GPE
+=======
+瑞 B-GPE.NAM
+士 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 连 O
 续 O
 六 O
@@ -13175,8 +14712,13 @@ j O
 争 O
 力 O
 的 O
+<<<<<<< HEAD
 国 B-ORG
 家 I-ORG
+=======
+国 B-ORG.NOM
+家 I-ORG.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 ， O
 新 O
 h O
@@ -13424,8 +14966,13 @@ A O
 公 O
 斤 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 已 O
 经 O
 o O
@@ -13434,11 +14981,19 @@ t O
 了 O
 ！ O
 ！ O
+<<<<<<< HEAD
 俄 B-GPE
 罗 I-GPE
 斯 I-GPE
 美 B-PER
 女 I-PER
+=======
+俄 B-GPE.NAM
+罗 I-GPE.NAM
+斯 I-GPE.NAM
+美 B-PER.NOM
+女 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 已 O
 经 O
 瘦 O
@@ -13449,8 +15004,13 @@ t O
 公 O
 斤 O
 ， O
+<<<<<<< HEAD
 女 B-PER
 人 I-PER
+=======
+女 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 伤 O
 不 O
 起 O
@@ -13520,9 +15080,15 @@ q O
 i O
 u O
 。 O
+<<<<<<< HEAD
 游 B-LOC
 乐 I-LOC
 园 I-LOC
+=======
+游 B-LOC.NOM
+乐 I-LOC.NOM
+园 I-LOC.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 好 O
 好 O
 玩 O
@@ -13544,8 +15110,13 @@ u O
 碎 O
 的 O
 。 O
+<<<<<<< HEAD
 恋 B-PER
 人 I-PER
+=======
+恋 B-PER.NOM
+人 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 总 O
 是 O
 能 O
@@ -13704,9 +15275,15 @@ u O
 
 我 O
 叫 O
+<<<<<<< HEAD
 赵 B-PER
 新 I-PER
 民 I-PER
+=======
+赵 B-PER.NAM
+新 I-PER.NAM
+民 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 哈 O
 哈 O
 哈 O
@@ -13730,6 +15307,7 @@ a O
 / O
 / O
 @ O
+<<<<<<< HEAD
 何 B-PER
 辛 I-PER
 E B-ORG
@@ -13738,6 +15316,16 @@ P I-ORG
 N I-ORG
 卫 I-ORG
 视 I-ORG
+=======
+何 B-PER.NAM
+辛 I-PER.NAM
+E B-ORG.NAM
+S I-ORG.NAM
+P I-ORG.NAM
+N I-ORG.NAM
+卫 I-ORG.NAM
+视 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 主 O
 持 O
 人 O
@@ -13751,11 +15339,19 @@ N I-ORG
 / O
 / O
 @ O
+<<<<<<< HEAD
 酒 B-ORG
 酿 I-ORG
 园 I-ORG
 子 I-ORG
 铺 I-ORG
+=======
+酒 B-ORG.NAM
+酿 I-ORG.NAM
+园 I-ORG.NAM
+子 I-ORG.NAM
+铺 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 : O
 / O
 / O
@@ -13924,8 +15520,13 @@ T O
 动 O
 ， O
 让 O
+<<<<<<< HEAD
 小 B-PER
 编 I-PER
+=======
+小 B-PER.NOM
+编 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 保 O
 佑 O
 我 O
@@ -14092,8 +15693,13 @@ y O
 纹 O
 身 O
 
+<<<<<<< HEAD
 日 B-GPE
 本 I-GPE
+=======
+日 B-GPE.NAM
+本 I-GPE.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 生 O
 理 O
 书 O
@@ -14105,8 +15711,13 @@ y O
 哇 O
 伊 O
 的 O
+<<<<<<< HEAD
 女 B-PER
 生 I-PER
+=======
+女 B-PER.NOM
+生 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 生 O
 长 O
 过 O
@@ -14131,9 +15742,15 @@ y O
 
 我 O
 叫 O
+<<<<<<< HEAD
 赵 B-PER
 新 I-PER
 民 I-PER
+=======
+赵 B-PER.NAM
+新 I-PER.NAM
+民 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 我 O
 们 O
 也 O
@@ -14272,9 +15889,15 @@ s O
 事 O
 里 O
 的 O
+<<<<<<< HEAD
 主 B-PER
 人 I-PER
 公 I-PER
+=======
+主 B-PER.NOM
+人 I-PER.NOM
+公 I-PER.NOM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 。 O
 
 自 O
@@ -14445,8 +16068,13 @@ s O
 了 O
 ！ O
 
+<<<<<<< HEAD
 霄 B-PER
 贤 I-PER
+=======
+霄 B-PER.NAM
+贤 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 不 O
 屑 O
 与 O
@@ -14456,9 +16084,15 @@ s O
 逼 O
 青 O
 年 O
+<<<<<<< HEAD
 杨 B-PER
 素 I-PER
 晗 I-PER
+=======
+杨 B-PER.NAM
+素 I-PER.NAM
+晗 I-PER.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 
 你 O
 没 O
@@ -14671,8 +16305,13 @@ c O
 袜 O
 子 O
 @ O
+<<<<<<< HEAD
 读 B-ORG
 者 I-ORG
+=======
+读 B-ORG.NAM
+者 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 画 O
 报 O
 @ O
@@ -14711,6 +16350,7 @@ t O
 y O
 
 # O
+<<<<<<< HEAD
 西 B-ORG
 山 I-ORG
 居 I-ORG
@@ -14718,12 +16358,22 @@ y O
 号 I-ORG
 中 I-ORG
 心 I-ORG
+=======
+西 B-ORG.NAM
+山 I-ORG.NAM
+居 I-ORG.NAM
+发 I-ORG.NAM
+号 I-ORG.NAM
+中 I-ORG.NAM
+心 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 狂 O
 欢 O
 一 O
 夏 O
 # O
 # O
+<<<<<<< HEAD
 西 B-ORG
 山 I-ORG
 居 I-ORG
@@ -14731,6 +16381,15 @@ y O
 号 I-ORG
 中 I-ORG
 心 I-ORG
+=======
+西 B-ORG.NAM
+山 I-ORG.NAM
+居 I-ORG.NAM
+发 I-ORG.NAM
+号 I-ORG.NAM
+中 I-ORG.NAM
+心 I-ORG.NAM
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
 狂 O
 欢 O
 一 O

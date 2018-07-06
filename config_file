@@ -1,17 +1,28 @@
 {
     "num_chars": 4412,
     "char_dim": 100,
+<<<<<<< HEAD
     "num_tags": 7,
     "seg_dim": 20,
     "lstm_dim": 100,
     "batch_size": 20,
     "iteration": 1000,
+=======
+    "num_tags": 23,
+    "seg_dim": 20,
+    "lstm_dim": 100,
+    "batch_size": 20,
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
     "emb_file": "wiki_100.utf8",
     "clip": 5,
     "dropout_keep": 0.5,
     "optimizer": "adam",
     "lr": 0.001,
+<<<<<<< HEAD
     "tag_schema": "iob",
+=======
+    "tag_schema": "iobes",
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
     "pre_emb": true,
     "zeros": false,
     "lower": true

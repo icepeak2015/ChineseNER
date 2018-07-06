@@ -183,6 +183,7 @@ UnimplementedError (see above for traceback): TensorArray has size zero, but ele
 2018-02-26 18:48:21,523 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
 2018-03-14 14:46:34,569 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
 2018-06-21 16:54:02,428 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+<<<<<<< HEAD
 2018-06-22 11:04:11,875 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
 2018-06-22 12:31:26,365 - train.log - INFO - TensorArray has size zero, but element shape [?,100] is not fully defined. Currently only static shapes are supported when packing zero-size TensorArrays.
 	 [[Node: char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/TensorArrayGatherV3 = TensorArrayGatherV3[_class=["loc:@char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray"], dtype=DT_FLOAT, element_shape=[?,100], _device="/job:localhost/replica:0/task:0/cpu:0"](char_BiLSTM/bidirectional_rnn/fw/fw/TensorArray, char_BiLSTM/bidirectional_rnn/fw/fw/TensorArrayStack/range, char_BiLSTM/bidirectional_rnn/fw/fw/while/Exit_1)]]
@@ -353,3 +354,5 @@ UnimplementedError (see above for traceback): TensorArray has size zero, but ele
 2018-07-05 20:49:44,094 - train.log - INFO - Created model with fresh parameters.
 2018-07-05 20:49:45,393 - train.log - INFO - Load pre-trained embedding.
 2018-07-06 09:20:09,540 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+=======
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46

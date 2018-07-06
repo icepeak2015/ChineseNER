@@ -113,12 +113,18 @@ def train():
     # update_tag_scheme 后sentence没有太大的变化
     loader.update_tag_scheme(train_sentences, FLAGS.tag_schema)
     loader.update_tag_scheme(test_sentences, FLAGS.tag_schema)
+<<<<<<< HEAD
 
     os.environ["CUDA_VISIBLE_DEVICES"] ="0"
 
     # create maps if not exist
     # 是否存在maps.pkl文件，如果不存在就需要读取训练数据，
     # 获得char_to_id  tag_to_id
+=======
+
+    # create maps if not exist
+    # 是否存在maps.pkl文件，
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
     if not os.path.isfile(FLAGS.map_file):
         # create dictionary for word
         if FLAGS.pre_emb:
@@ -135,15 +141,22 @@ def train():
 
         # Create a dictionary and a mapping for tags
         _t, tag_to_id, id_to_tag = loader.tag_mapping(train_sentences)
+<<<<<<< HEAD
         print('tag_to_id: ', tag_to_id)
+=======
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
         with open(FLAGS.map_file, "wb") as f:
             pickle.dump([char_to_id, id_to_char, tag_to_id, id_to_tag], f)
     else:
         with open(FLAGS.map_file, "rb") as f:
             char_to_id, id_to_char, tag_to_id, id_to_tag = pickle.load(f)
 
+<<<<<<< HEAD
     # print('tag_to_id: ', tag_to_id)
 
+=======
+    print('tag_to_id: ', tag_to_id)
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
     # prepare data, get a collection of list containing index
     train_data = loader.prepare_dataset(
         train_sentences, char_to_id, tag_to_id, FLAGS.lower
@@ -160,7 +173,10 @@ def train():
     train_manager = data_utils.BatchManager(train_data, FLAGS.batch_size)
     dev_manager = data_utils.BatchManager(dev_data, 100)
     test_manager = data_utils.BatchManager(test_data, 100)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
     # make path for store log and model if not exist
     utils.make_path(FLAGS)
     if os.path.isfile(FLAGS.config_file):
@@ -182,7 +198,11 @@ def train():
         model = utils.create_model(sess, Model, FLAGS.ckpt_path, data_utils.load_word2vec, config, id_to_char, logger)
         logger.info("start training")
         loss = []
+<<<<<<< HEAD
         for i in range(FLAGS.iterations):
+=======
+        for i in range(10):
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
             logger.info('epoch: {}'.format(i))
             for batch in train_manager.iter_batch(shuffle=True):
                 step, batch_loss = model.run_step(sess, True, batch)
@@ -215,8 +235,11 @@ def evaluate_line():
         while True:
             try:
                 line = input("请输入测试句子:")
+<<<<<<< HEAD
                 if line == 'exit':
                     break
+=======
+>>>>>>> 2492423b2f0167f9b345fad89688c6b5060f2a46
                 result = model.evaluate_line(sess, data_utils.input_from_line(line, char_to_id), id_to_tag)
                 print(result)
             except Exception as e:
