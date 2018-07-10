@@ -6,7 +6,7 @@ from tensorflow.contrib.crf import viterbi_decode
 from tensorflow.contrib.layers.python.layers import initializers
 
 import rnncell as rnn
-from utils import result_to_json
+from utils import result_to_json, result_to_json_bio
 from data_utils import create_input, iobes_iob
 
 
@@ -220,7 +220,8 @@ class Model(object):
             return global_step, loss
         else:
             lengths, logits = sess.run([self.lengths, self.logits], feed_dict)
-            # logits 为输入句子中每个字对应的Tag的数值，每个字为一个固定长度的list
+            # logits 为输入句子中每个字对应的所有Tag类型的数值，
+            # logits 中每个字为一个固定长度的list，长度为所有tag类型数量
             return lengths, logits
 
     # 将每个字对应的13个Tag的数值，转化为相应的 Tag label
@@ -271,11 +272,14 @@ class Model(object):
         return results
 
     # 测试输入语句的命名实体
+    # inputs: [line][line中每个字的char_to_id][jieba分词后，每个字对应的bio位置]
     def evaluate_line(self, sess, inputs, id_to_tag):
         trans = self.trans.eval()
         lengths, scores = self.run_step(sess, False, inputs)
-        print('lengths: {}   scores: {}', lengths, scores)
+        print('lengths: {}   scores: {}'.format(lengths, scores))
         batch_paths = self.decode(scores, lengths, trans)
-        print('batch_paths: {}', batch_paths)
+        print('batch_paths: {}'.format(batch_paths))
         tags = [id_to_tag[idx] for idx in batch_paths[0]]
-        return result_to_json(inputs[0][0], tags)
+        print('tags: ', tags)
+        # return result_to_json(inputs[0][0], tags)
+        return result_to_json_bio(inputs[0][0], tags)

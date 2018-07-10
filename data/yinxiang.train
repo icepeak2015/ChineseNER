@@ -1,0 +1,158 @@
+我 O
+想 B-ACT
+听 I-ACT
+周 B-PER
+杰 I-PER
+伦 I-PER
+的 O
+青 B-MUS
+花 I-MUS
+瓷 I-MUS
+
+请 O
+帮 O
+我 O
+打 B-ACT
+开 I-ACT
+厨 B-LOC
+房 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+客 B-LOC
+厅 I-LOC
+的 O
+大 B-IHS
+灯 I-IHS
+
+打 B-ACT
+开 I-ACT
+阳 B-LOC
+台 I-LOC
+的 O
+顶 B-IHS
+灯 I-IHS
+
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+打 B-ACT
+开 I-ACT
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+调 B-ACT
+整 I-ACT
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-ACT
+置 I-ACT
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-ACT
+定 I-ACT
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+把 O 
+空 B-IHS 
+调 I-IHS 
+温 O 
+度 O 
+设 B-ACT 
+置 I-ACT 
+为 O
+1 B-TAG
+5 I-TAG
+度 I-TAG
+
+播 B-ACT
+放 I-ACT
+刘 B-PER
+德 I-PER
+华 I-PER
+的 O
+歌 O
+曲 O
+冰 B-MUS
+雨 I-MUS
+
+播 B-ACT
+放 I-ACT
+水 B-PER
+木 I-PER
+年 I-PER
+华 I-PER
+的 O
+歌 O
+曲 O
+十 B-MUS
+年 I-MUS
+
+请 O
+把 O
+加 B-IHS
+湿 I-IHS
+器 I-IHS
+打 B-ACT
+开 I-ACT
+
+打 B-ACT
+开 I-ACT
+加 B-IHS
+湿 I-IHS
+器 I-IHS
+
+播 B-ACT
+放 I-ACT
+王 B-PER
+菲 I-PER
+的 O 
+歌 O
+
+播 B-ACT
+放 I-ACT
+王 B-PER
+菲 I-PER
+的 O 
+红 B-MUS 
+豆 I-MUS
+
+来 B-ACT
+一 I-ACT 
+首 I-ACT 
+罗 B-PER
+大 I-PER 
+佑 I-PER 
+的 O
+歌 O
+

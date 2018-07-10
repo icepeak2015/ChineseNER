@@ -133,6 +133,7 @@ def get_seg_features(string):
     seg_feature = []
 
     for word in jieba.cut(string):
+        print('jieba word: ', word)
         if len(word) == 1:
             seg_feature.append(0)
         else:
@@ -140,6 +141,7 @@ def get_seg_features(string):
             tmp[0] = 1
             tmp[-1] = 3
             seg_feature.extend(tmp)
+    print('seg_features: ', seg_feature)
     return seg_feature
 
 
@@ -262,6 +264,7 @@ def replace_html(s):
     s = s.replace("\xa0", " ")
     return(s)
 
+# 返回的结果格式
 # [句子中每个字对应的 ID] [jieba 分词后，每个字的位置（0-3）]
 def input_from_line(line, char_to_id):
     """
@@ -277,7 +280,7 @@ def input_from_line(line, char_to_id):
                    for char in line]])
     inputs.append([get_seg_features(line)])
     inputs.append([[]])
-    # print('chars: ', inputs)
+    print('input chars: ', inputs)
     return inputs
 
 

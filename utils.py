@@ -212,6 +212,34 @@ def result_to_json(string, tags):
         idx += 1
     return item
 
+def result_to_json_bio(string, tags):
+    item = {"string": string, "entities": []}
+    entity_name = ""
+    entity_start = 0
+    idx = 0
+    for char, tag in zip(string, tags):
+        if tag[0] == "B":
+            if len(entity_name) > 0:     # 判断之前是否有entity
+                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
+                entity_name = ""
+            
+            entity_name += char
+            entity_start = idx
+            pre_tag = tag
+            if idx == len(string)-1:   # 句子的结尾处理
+                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
+        elif tag[0] == "I":
+            entity_name += char
+            pre_tag = tag
+            if idx == len(string)-1:   # 句子的结尾处理
+                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
+        else:
+            if len(entity_name) > 0:
+                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
+                entity_name = ""
+        idx += 1
+    return item
+
 
 
 
