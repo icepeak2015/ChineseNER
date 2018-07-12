@@ -20,7 +20,7 @@ flags.DEFINE_boolean("train",       False,      "Wither train the model")
 flags.DEFINE_integer("seg_dim",     20,         "Embedding size for segmentation, 0 if not used")
 flags.DEFINE_integer("char_dim",    100,        "Embedding size for characters")
 flags.DEFINE_integer("lstm_dim",    100,        "Num of hidden units in LSTM")
-flags.DEFINE_integer("iterations",    1000,       "iteation of training")
+flags.DEFINE_integer("iterations",    100,       "iteation of training")
 # flags.DEFINE_string("tag_schema",   "iobes",    "tagging schema iobes or iob")
 flags.DEFINE_string("tag_schema",   "iob",    "tagging schema iobes or iob")
 
@@ -39,6 +39,7 @@ flags.DEFINE_integer("steps_check", 100,        "steps per checkpoint")
 flags.DEFINE_string("ckpt_path",    "ckpt",      "Path to save model")
 flags.DEFINE_string("summary_path", "summary",      "Path to store summaries")
 flags.DEFINE_string("log_file",     "train.log",    "File for log")
+flags.DEFINE_string("log_test",     "test.log",     "File for test data")
 flags.DEFINE_string("map_file",     "maps.pkl",     "file for maps")
 flags.DEFINE_string("vocab_file",   "vocab.json",   "File for vocab")
 flags.DEFINE_string("config_file",  "config_file",  "File for config")
@@ -214,15 +215,16 @@ def train():
 # 对输入的句子进行NER
 def evaluate_line():
     config = utils.load_config(FLAGS.config_file)       # 读取配置文件
-    logger = utils.get_logger(FLAGS.log_file)           # log文件名及路径
+    log_path = os.path.join("evl_log", FLAGS.log_test)      # ./log/train.log
+    logger = utils.get_logger(log_path)           # log文件名及路径
     # limit GPU memory
     tf_config = tf.ConfigProto()                  # TensorFlow 会话的配置项
     tf_config.gpu_options.allow_growth = True
     with open(FLAGS.map_file, "rb") as f:        # map_file 中存储着字与id，tag与id之间的对应关系
         char_to_id, id_to_char, tag_to_id, id_to_tag = pickle.load(f)
         # char_to_id  每个字对应的id， id_to_char 两者是相对应的
-        print('char_to_id: ', char_to_id)
-        print('tag_to_id: ', tag_to_id)
+        # print('char_to_id: ', char_to_id)
+        # print('tag_to_id: ', tag_to_id)
 
     with tf.Session(config=tf_config) as sess:
         model = utils.create_model(sess, Model, FLAGS.ckpt_path, data_utils.load_word2vec, config, id_to_char, logger)
@@ -233,6 +235,7 @@ def evaluate_line():
                     break
                 result = model.evaluate_line(sess, data_utils.input_from_line(line, char_to_id), id_to_tag)
                 print(result)
+                logger.debug(result)
             except Exception as e:
                 logger.info(e)
 
@@ -247,6 +250,7 @@ def main(_):
 
 
 if __name__ == "__main__":
+    os.environ["CUDA_VISIBLE_DEVICES"] ="0"
     tf.app.run(main)
 
 

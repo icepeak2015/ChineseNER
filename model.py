@@ -276,9 +276,9 @@ class Model(object):
     def evaluate_line(self, sess, inputs, id_to_tag):
         trans = self.trans.eval()
         lengths, scores = self.run_step(sess, False, inputs)
-        print('lengths: {}   scores: {}'.format(lengths, scores))
+        # lengths 是句子的长度，scores是每个字对应tag的得分
+        # print('lengths: {}   scores: {}'.format(lengths, scores))
         batch_paths = self.decode(scores, lengths, trans)
-        print('batch_paths: {}'.format(batch_paths))
         tags = [id_to_tag[idx] for idx in batch_paths[0]]
         print('tags: ', tags)
         # return result_to_json(inputs[0][0], tags)

@@ -6,6 +6,7 @@ import logging
 import tensorflow as tf
 from conlleval import return_report
 import codecs
+from collections import OrderedDict
 
 models_path = "./models"
 eval_path = "./evaluation"
@@ -16,7 +17,7 @@ eval_script = os.path.join(eval_path, "conlleval")
 def get_logger(log_file):
     logger = logging.getLogger(log_file)
     logger.setLevel(logging.DEBUG)
-    fh = logging.FileHandler(log_file)
+    fh = logging.FileHandler(log_file, encoding='utf-8')
     fh.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
     ch.setLevel(logging.INFO)
@@ -220,26 +221,37 @@ def result_to_json_bio(string, tags):
     for char, tag in zip(string, tags):
         if tag[0] == "B":
             if len(entity_name) > 0:     # 判断之前是否有entity
-                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
+                item['entities'].append(create_ner_list(entity_name, entity_start, idx-1, pre_tag[2:]))
+                # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
                 entity_name = ""
             
             entity_name += char
             entity_start = idx
             pre_tag = tag
             if idx == len(string)-1:   # 句子的结尾处理
-                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
+                item['entities'].append(create_ner_list(entity_name, entity_start, idx, pre_tag[2:]))
+                # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
         elif tag[0] == "I":
             entity_name += char
             pre_tag = tag
             if idx == len(string)-1:   # 句子的结尾处理
-                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
+                item['entities'].append(create_ner_list(entity_name, entity_start, idx, pre_tag[2:]))
+                # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
         else:
             if len(entity_name) > 0:
-                item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
+                item['entities'].append(create_ner_list(entity_name, entity_start, idx-1, pre_tag[2:]))
+                # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
                 entity_name = ""
         idx += 1
     return item
 
+def create_ner_list(entity_name, entity_start, idx, tag):
+    ret_list = []
+    ret_list.append('word：{}'.format(entity_name))
+    # ret_list.append('start：{}'.format(entity_start))
+    # ret_list.append('end：{}'.format(idx))
+    ret_list.append('type：{}'.format(tag))
+    return ret_list
 
 
 

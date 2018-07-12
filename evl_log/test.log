@@ -1,0 +1,17 @@
+2018-07-11 19:57:46,484 - evl_log\test.log - DEBUG - {'string': '我想听刘德华的练习', 'entities': [['word：想听', 'type：ACT'], ['word：刘德华', 'type：PER'], ['word：练习', 'type：MUS']]}
+2018-07-11 19:59:40,355 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-11 19:59:49,969 - evl_log\test.log - DEBUG - {'entities': [['word：我想听', 'type：ACT'], ['word：刘德华', 'type：ART'], ['word：开心马骝', 'type：SNG']], 'string': '我想听刘德华的开心马骝'}
+2018-07-11 20:04:11,226 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-11 20:04:32,599 - evl_log\test.log - DEBUG - {'string': '播放刘德华的忘情水', 'entities': [['word：播放', 'type：PLY'], ['word：刘德华', 'type：ART'], ['word：忘情水', 'type：SNG']]}
+2018-07-11 20:04:48,265 - evl_log\test.log - DEBUG - {'string': '我想听刘德华的笨小孩', 'entities': [['word：想听', 'type：PLY'], ['word：刘德华', 'type：ART'], ['word：笨小孩', 'type：SNG']]}
+2018-07-11 20:05:05,177 - evl_log\test.log - DEBUG - {'string': '想听周杰伦的听妈妈的话', 'entities': [['word：想听', 'type：PLY'], ['word：周杰伦', 'type：ART'], ['word：听妈妈的话', 'type：SNG']]}
+2018-07-11 20:11:28,926 - evl_log\test.log - DEBUG - {'string': '播放情歌唱给自己听', 'entities': [['word：播放情', 'type：ART'], ['word：自己听', 'type：TAG']]}
+2018-07-11 20:11:40,546 - evl_log\test.log - DEBUG - {'string': '播放冰雨', 'entities': [['word：播放冰雨', 'type：SNG']]}
+2018-07-11 20:12:19,522 - evl_log\test.log - DEBUG - {'string': '我想听笨小孩', 'entities': [['word：想听', 'type：PLY'], ['word：笨小孩', 'type：ART']]}
+2018-07-11 20:12:25,311 - evl_log\test.log - DEBUG - {'string': '播放笨小孩', 'entities': [['word：播放', 'type：PLY'], ['word：笨小孩', 'type：SNG']]}
+2018-07-11 20:12:32,890 - evl_log\test.log - DEBUG - {'string': '播放练习', 'entities': [['word：播放练习', 'type：SNG']]}
+2018-07-11 20:34:37,033 - evl_log\test.log - DEBUG - {'string': '播放水木年华的再见了我最爱的人', 'entities': [['word：播放水', 'type：ART'], ['word：木年华', 'type：ART'], ['word：再见了我最爱的人', 'type：SNG']]}
+2018-07-11 20:34:54,483 - evl_log\test.log - DEBUG - {'string': '我想听水木年华的再见了我最爱的人', 'entities': [['word：我', 'type：PLY'], ['word：想听', 'type：PLY'], ['word：水木年华', 'type：ART'], ['word：再见了我最爱的人', 'type：SNG']]}
+2018-07-11 20:36:59,930 - evl_log\test.log - DEBUG - {'string': '我想听练习', 'entities': [['word：我想', 'type：SNG'], ['word：听练习', 'type：ART']]}
+2018-07-11 20:39:02,671 - evl_log\test.log - DEBUG - {'string': '播放练习', 'entities': [['word：播放练习', 'type：SNG']]}
+2018-07-11 20:39:13,361 - evl_log\test.log - DEBUG - {'string': '播放刘德华的练习', 'entities': [['word：播放', 'type：PLY'], ['word：刘德华', 'type：ART'], ['word：练习', 'type：SNG']]}
