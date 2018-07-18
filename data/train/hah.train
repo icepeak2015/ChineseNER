@@ -1,0 +1,225 @@
+请 O
+帮 O
+我 O
+打 B-ACT
+开 I-ACT
+厨 B-LOC
+房 I-LOC
+的 O
+灯 B-IHS
+带 I-IHS
+
+请 O
+帮 O
+我 O
+关 B-ACT
+闭 I-ACT
+厨 B-LOC
+房 I-LOC
+的 O
+灯 B-IHS
+带 I-IHS
+
+请 O
+帮 O
+我 O
+关 B-ACT
+上 I-ACT
+厨 B-LOC
+房 I-LOC
+的 O
+灯 B-IHS
+带 I-IHS
+
+请 O
+帮 O
+我 O
+关 B-ACT
+调 I-ACT
+厨 B-LOC
+房 I-LOC
+的 O
+灯 B-IHS
+带 I-IHS
+
+
+打 B-ACT
+开 I-ACT
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+调 B-TRN
+亮 B-UPD
+一 I-UPD
+点 I-UPD
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+调 B-TRN
+暗 B-UPD
+一 I-UPD
+点 I-UPD
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+调 B-TRN
+到 O
+最 B-UPD
+亮 I-UPD
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+调 B-TRN
+到 O
+最 B-UPD
+暗 I-UPD
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+亮 B-BRT
+度 I-BRT
+调 B-TRN
+高 B-UPD
+
+把 O
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+亮 B-BRT
+度 I-BRT
+调 B-TRN
+低 B-UPD
+
+打 B-ACT
+开 I-ACT
+卧 B-LOC
+室 I-LOC
+的 O
+台 B-IHS
+灯 I-IHS
+
+打 B-ACT
+开 I-ACT
+卧 B-LOC
+室 I-LOC
+的 O
+电 B-IHS
+灯 I-IHS
+
+打 B-ACT
+开 I-ACT
+餐 B-LOC
+厅 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+厕 B-LOC
+所 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+卫 B-LOC
+生 I-LOC
+间 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+卧 B-LOC
+室 I-LOC
+的 O
+灯 B-IHS
+
+打 B-ACT
+开 I-ACT
+客 B-LOC
+厅 I-LOC
+的 O
+大 B-IHS
+灯 I-IHS
+
+打 B-ACT
+开 I-ACT
+阳 B-LOC
+台 I-LOC
+的 O
+顶 B-IHS
+灯 I-IHS
+
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+打 B-ACT
+开 I-ACT
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+调 B-SET
+整 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-SET
+置 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-SET
+定 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+把 O 
+空 B-IHS 
+调 I-IHS 
+温 O 
+度 O 
+设 B-SET 
+置 I-SET 
+为 O
+1 B-TAG
+5 I-TAG
+度 I-TAG

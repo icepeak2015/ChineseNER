@@ -49,9 +49,9 @@ flags.DEFINE_string("emb_file",     "wiki_100.utf8", "Path for pre_trained embed
 # flags.DEFINE_string("train_file",   os.path.join("data", "example.train"),  "Path for train data")
 # flags.DEFINE_string("dev_file",     os.path.join("data", "example.dev"),    "Path for dev data")
 # flags.DEFINE_string("test_file",    os.path.join("data", "example.test"),   "Path for test data")
-flags.DEFINE_string("train_file",   os.path.join("data", "yinxiang.train"),  "Path for train data")
-flags.DEFINE_string("dev_file",     os.path.join("data", "yinxiang.dev"),    "Path for dev data")
-flags.DEFINE_string("test_file",    os.path.join("data", "yinxiang.test"),   "Path for test data")
+flags.DEFINE_string("train_file",   os.path.join("data", "train"),  "Path for train data")
+flags.DEFINE_string("dev_file",     os.path.join("data", "dev"),    "Path for dev data")
+flags.DEFINE_string("test_file",    os.path.join("data", "test"),   "Path for test data")
 
 
 FLAGS = tf.app.flags.FLAGS
@@ -109,9 +109,13 @@ def evaluate(sess, model, name, data, id_to_tag, logger):
 def train():
     # load data sets
     # sentences 的格式如下  ['在', 'O'], ['厦', 'B-LOC'], ['门', 'I-LOC']
-    train_sentences = loader.load_sentences(FLAGS.train_file, FLAGS.lower, FLAGS.zeros)
-    dev_sentences = loader.load_sentences(FLAGS.dev_file, FLAGS.lower, FLAGS.zeros)
-    test_sentences = loader.load_sentences(FLAGS.test_file, FLAGS.lower, FLAGS.zeros)
+    # train_sentences = loader.load_sentences(FLAGS.train_file, FLAGS.lower, FLAGS.zeros)
+    # dev_sentences = loader.load_sentences(FLAGS.dev_file, FLAGS.lower, FLAGS.zeros)
+    # test_sentences = loader.load_sentences(FLAGS.test_file, FLAGS.lower, FLAGS.zeros)
+
+    train_sentences = loader.load_folder_sentences(FLAGS.train_file, FLAGS.lower, FLAGS.zeros)
+    dev_sentences = loader.load_folder_sentences(FLAGS.dev_file, FLAGS.lower, FLAGS.zeros)
+    test_sentences = loader.load_folder_sentences(FLAGS.test_file, FLAGS.lower, FLAGS.zeros)
 
     # Use selected tagging scheme (IOB / IOBES)
     # update_tag_scheme 后sentence没有太大的变化
@@ -212,6 +216,7 @@ def train():
                 utils.save_model(sess, model, FLAGS.ckpt_path, logger)
             evaluate(sess, model, "test", test_manager, id_to_tag, logger)
 
+
 # 对输入的句子进行NER
 def evaluate_line():
     config = utils.load_config(FLAGS.config_file)       # 读取配置文件
@@ -250,7 +255,7 @@ def main(_):
 
 
 if __name__ == "__main__":
-    os.environ["CUDA_VISIBLE_DEVICES"] ="0"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     tf.app.run(main)
 
 

@@ -15,3 +15,68 @@
 2018-07-11 20:36:59,930 - evl_log\test.log - DEBUG - {'string': '我想听练习', 'entities': [['word：我想', 'type：SNG'], ['word：听练习', 'type：ART']]}
 2018-07-11 20:39:02,671 - evl_log\test.log - DEBUG - {'string': '播放练习', 'entities': [['word：播放练习', 'type：SNG']]}
 2018-07-11 20:39:13,361 - evl_log\test.log - DEBUG - {'string': '播放刘德华的练习', 'entities': [['word：播放', 'type：PLY'], ['word：刘德华', 'type：ART'], ['word：练习', 'type：SNG']]}
+2018-07-12 08:51:44,546 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-12 08:51:57,174 - evl_log\test.log - DEBUG - {'string': '播放爱你一万年', 'entities': [['word：播放', 'type：PLY'], ['word：爱你一万年', 'type：SNG']]}
+2018-07-12 08:52:16,172 - evl_log\test.log - DEBUG - {'string': '我想听求佛', 'entities': [['word：想听', 'type：PLY'], ['word：求佛', 'type：SNG']]}
+2018-07-12 08:52:31,632 - evl_log\test.log - DEBUG - {'string': '播放誓言的求佛', 'entities': [['word：播放', 'type：PLY'], ['word：誓言', 'type：ART'], ['word：求佛', 'type：SNG']]}
+2018-07-12 08:52:49,044 - evl_log\test.log - DEBUG - {'string': '随机播放歌曲', 'entities': [['word：随机播放', 'type：PLY']]}
+2018-07-12 08:53:01,263 - evl_log\test.log - DEBUG - {'string': '随便博一首', 'entities': [['word：随便博一', 'type：PLY']]}
+2018-07-12 08:53:20,989 - evl_log\test.log - DEBUG - {'string': '随机播一首', 'entities': [['word：随机播', 'type：PLY']]}
+2018-07-12 08:53:41,448 - evl_log\test.log - DEBUG - {'string': '打开厨房的加湿器', 'entities': [['word：打开', 'type：OPN'], ['word：厨房', 'type：LOC'], ['word：加湿器', 'type：IHS']]}
+2018-07-12 08:54:13,985 - evl_log\test.log - DEBUG - {'string': '打开阳台的灯', 'entities': [['word：打开', 'type：OPN'], ['word：阳台', 'type：LOC'], ['word：灯', 'type：IHS']]}
+2018-07-12 08:54:22,372 - evl_log\test.log - DEBUG - {'string': '打开阳台的空调', 'entities': [['word：打开', 'type：OPN'], ['word：阳台', 'type：LOC'], ['word：空调', 'type：IHS']]}
+2018-07-12 08:54:43,585 - evl_log\test.log - DEBUG - {'string': '打开阳台的顶灯', 'entities': [['word：打开', 'type：OPN'], ['word：阳台', 'type：LOC'], ['word：顶灯', 'type：IHS']]}
+2018-07-12 08:56:25,864 - evl_log\test.log - DEBUG - {'string': '打开卧室的第二个灯', 'entities': [['word：打开', 'type：OPN'], ['word：卧室', 'type：ART'], ['word：第二个灯', 'type：SNG']]}
+2018-07-12 08:57:00,552 - evl_log\test.log - DEBUG - {'string': '打开卧室的灯', 'entities': [['word：打开', 'type：OPN'], ['word：卧室', 'type：LOC'], ['word：灯', 'type：IHS']]}
+2018-07-12 08:57:22,779 - evl_log\test.log - DEBUG - {'string': '打开卧室的三个灯', 'entities': [['word：打开', 'type：OPN'], ['word：卧室', 'type：LOC'], ['word：三个灯', 'type：SNG']]}
+2018-07-12 08:57:30,970 - evl_log\test.log - DEBUG - {'string': '打开卧室的个灯', 'entities': [['word：打开', 'type：OPN'], ['word：卧室', 'type：LOC'], ['word：灯', 'type：IHS']]}
+2018-07-12 08:58:29,836 - evl_log\test.log - DEBUG - {'string': '打开卧室的大灯', 'entities': [['word：打开', 'type：OPN'], ['word：卧室', 'type：LOC'], ['word：大灯', 'type：IHS']]}
+2018-07-12 09:18:19,322 - evl_log\test.log - DEBUG - {'string': '请帮我打开餐厅的灯', 'entities': [['word：打开', 'type：OPN'], ['word：餐厅', 'type：LOC'], ['word：灯', 'type：IHS']]}
+2018-07-12 09:18:29,438 - evl_log\test.log - DEBUG - {'string': '请帮我打开餐厅的空调', 'entities': [['word：打开', 'type：OPN'], ['word：餐厅', 'type：LOC'], ['word：空调', 'type：IHS']]}
+2018-07-12 09:18:42,176 - evl_log\test.log - DEBUG - {'string': '请帮我打开餐厅的电视剧', 'entities': [['word：帮我', 'type：ART'], ['word：打开餐厅', 'type：ART'], ['word：电视剧', 'type：TAG']]}
+2018-07-12 09:18:51,003 - evl_log\test.log - DEBUG - {'string': '请帮我打开餐厅的冰箱', 'entities': [['word：打开', 'type：OPN'], ['word：餐厅', 'type：LOC'], ['word：冰箱', 'type：IHS']]}
+2018-07-13 12:55:29,953 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-13 12:55:41,432 - evl_log\test.log - DEBUG - {'entities': [['word：打开', 'type：ACT'], ['word：阳台', 'type：LOC'], ['word：灯', 'type：IHS']], 'string': '请帮我打开阳台的灯'}
+2018-07-13 12:56:16,864 - evl_log\test.log - DEBUG - {'entities': [['word：关', 'type：ACT'], ['word：卧室', 'type：LOC'], ['word：灯', 'type：IHS']], 'string': '请关掉卧室的灯'}
+2018-07-13 12:56:31,760 - evl_log\test.log - DEBUG - {'entities': [['word：关闭', 'type：ACT'], ['word：卧室', 'type：LOC'], ['word：灯', 'type：IHS']], 'string': '请关闭卧室的灯'}
+2018-07-13 12:56:51,608 - evl_log\test.log - DEBUG - {'entities': [['word：空掉', 'type：IHS'], ['word：调', 'type：TRN'], ['word：低一点', 'type：UPD']], 'string': '把空掉温度调低一点'}
+2018-07-13 12:57:14,055 - evl_log\test.log - DEBUG - {'entities': [['word：灯', 'type：IHS'], ['word：亮度', 'type：BRT'], ['word：调', 'type：TRN'], ['word：高一点', 'type：UPD']], 'string': '把灯的亮度调高一点'}
+2018-07-13 15:54:57,121 - evl_log\test.log - DEBUG - {'entities': [['word：打开', 'type：ACT'], ['word：客厅', 'type：LOC'], ['word：加湿器', 'type：IHS']], 'string': '打开客厅的加湿器'}
+2018-07-17 08:49:13,224 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 08:49:20,894 - evl_log\test.log - DEBUG - {'string': '你好,周杰伦', 'entities': [['word：好,周杰伦', 'type：ART']]}
+2018-07-17 09:09:54,062 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 09:19:02,516 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 09:25:33,007 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 09:28:45,059 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 09:36:07,844 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 10:19:18,002 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 10:25:06,645 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 14:56:45,848 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 14:57:01,951 - evl_log\test.log - DEBUG - {'string': '播放杨宗纬的洋葱', 'entities': [OrderedDict([('word', '播放'), ('type', '播放')]), OrderedDict([('word', '杨宗纬'), ('type', '杨宗纬')]), OrderedDict([('word', '洋葱'), ('type', '洋葱')])]}
+2018-07-17 14:58:16,016 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 14:58:30,842 - evl_log\test.log - DEBUG - {'entities': [{'type': '播放', 'word': '播放'}, {'type': '杨宗纬', 'word': '杨宗纬'}, {'type': '洋葱', 'word': '洋葱'}], 'string': '播放杨宗纬的洋葱'}
+2018-07-17 14:59:42,503 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 14:59:53,081 - evl_log\test.log - DEBUG - {'string': '播放洋葱', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '葱', 'type': 'SNG'}]}
+2018-07-17 15:00:57,733 - evl_log\test.log - DEBUG - {'string': '播放杨宗纬的亲爱的小孩', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '杨宗纬', 'type': 'ART'}, {'word': '亲爱', 'type': 'ART'}, {'word': '小孩', 'type': 'SNG'}]}
+2018-07-17 15:06:28,802 - evl_log\test.log - DEBUG - {'string': '我想听亲爱的你怎么不在我身边', 'entities': [{'word': '想听', 'type': 'PLY'}, {'word': '亲爱', 'type': 'ART'}, {'word': '你怎么不在', 'type': 'SNG'}, {'word': '身边', 'type': 'SNG'}]}
+2018-07-17 15:07:31,361 - evl_log\test.log - DEBUG - {'string': '我想听亲爱的朋友', 'entities': [{'word': '想听', 'type': 'PLY'}, {'word': '亲爱', 'type': 'ART'}, {'word': '朋友', 'type': 'SNG'}]}
+2018-07-17 15:08:06,505 - evl_log\test.log - DEBUG - {'string': '我想听周华健的亲爱的朋友', 'entities': [{'word': '想听', 'type': 'PLY'}, {'word': '周华健', 'type': 'ART'}, {'word': '亲爱', 'type': 'ART'}, {'word': '朋友', 'type': 'SNG'}]}
+2018-07-17 15:09:01,571 - evl_log\test.log - DEBUG - {'string': '我想听亲亲我的宝贝', 'entities': [{'word': '想听', 'type': 'PLY'}, {'word': '亲亲', 'type': 'ART'}, {'word': '宝贝', 'type': 'SNG'}]}
+2018-07-17 15:10:29,604 - evl_log\test.log - DEBUG - {'string': '播放亲亲我的宝贝', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '亲亲', 'type': 'ART'}, {'word': '宝贝', 'type': 'SNG'}]}
+2018-07-17 15:49:10,197 - evl_log\test.log - DEBUG - {'string': '在冬天和奶奶一起晒太阳', 'entities': [{'word': '在', 'type': 'ART'}, {'word': '冬天', 'type': 'ART'}, {'word': '奶奶', 'type': 'SNG'}, {'word': '起晒', 'type': 'SNG'}, {'word': '太阳', 'type': 'SNG'}]}
+2018-07-17 15:50:58,943 - evl_log\test.log - DEBUG - {'string': '播放任贤齐的希望你明年冬天会回来', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '任贤齐', 'type': 'ART'}, {'word': '希望', 'type': 'SNG'}, {'word': '明年冬天会', 'type': 'SNG'}, {'word': '回来', 'type': 'SNG'}]}
+2018-07-17 15:51:25,210 - evl_log\test.log - DEBUG - {'string': '播放任贤齐的回来', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '任贤齐', 'type': 'ART'}, {'word': '回来', 'type': 'SNG'}]}
+2018-07-17 16:09:46,595 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 16:10:02,891 - evl_log\test.log - DEBUG - {'string': '播放汪峰的寂寞列车', 'entities': [{'word': '播放', 'type': 'PLY'}, {'word': '汪峰', 'type': 'ART'}, {'word': '寂寞', 'type': 'SNG'}, {'word': '列车', 'type': 'SNG'}]}
+2018-07-17 16:11:10,436 - evl_log\test.log - DEBUG - {'string': '我想听寂寞列车', 'entities': [{'word': '想听', 'type': 'PLY'}, {'word': '寂寞列车', 'type': 'ART'}]}
+2018-07-17 16:22:02,865 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 17:18:50,407 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 17:27:27,198 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 18:40:57,921 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 18:41:44,059 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 18:45:42,309 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 18:47:46,766 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-17 18:51:42,559 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-18 12:48:32,648 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-18 16:57:57,440 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-07-18 16:59:03,016 - evl_log\test.log - INFO - Reading model parameters from ckpt\ner.ckpt

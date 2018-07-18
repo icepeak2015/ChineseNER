@@ -39,6 +39,42 @@ def load_sentences(path, lower, zeros):
             sentences.append(sentence)
     return sentences
 
+def load_folder_sentences(path, lower, zeros):
+    """
+    Load sentences in a folder. A line must contain at least a word and its tag.
+    Sentences are separated by empty lines.
+    """
+    sentences = []
+    sentence = []
+    num = 0
+    files = os.listdir(path)
+    for file in files:
+        file_path = os.path.join(path, file)
+        # print('file_path: ', file_path)
+        for line in codecs.open(file_path, 'r', 'utf8'):
+            num+=1
+            line = zero_digits(line.rstrip()) if zeros else line.rstrip()
+            # print(list(line))
+            if not line:
+                if len(sentence) > 0:
+                    if 'DOCSTART' not in sentence[0][0]:
+                        sentences.append(sentence)
+                    sentence = []
+            else:
+                if line[0] == " ":
+                    line = "$" + line[1:]
+                    word = line.split()
+                    # word[0] = " "
+                else:
+                    word= line.split()
+                # print('word: ', word)
+                assert len(word) >= 2, print([word[0]])
+                sentence.append(word)
+    if len(sentence) > 0:
+        if 'DOCSTART' not in sentence[0][0]:
+            sentences.append(sentence)
+    return sentences
+
 
 def update_tag_scheme(sentences, tag_scheme):
     """

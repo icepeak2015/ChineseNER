@@ -1,0 +1,49 @@
+
+打 B-ACT
+开 I-ACT
+阳 B-LOC
+台 I-LOC
+的 O
+顶 B-IHS
+灯 I-IHS
+
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+打 B-ACT
+开 I-ACT
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+调 B-SET
+整 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-SET
+置 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG
+
+请 O
+把 O
+空 B-IHS
+调 I-IHS
+设 B-SET
+定 I-SET
+为 O
+2 B-TAG
+8 I-TAG
+度 I-TAG

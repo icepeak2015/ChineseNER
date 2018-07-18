@@ -221,25 +221,28 @@ def result_to_json_bio(string, tags):
     for char, tag in zip(string, tags):
         if tag[0] == "B":
             if len(entity_name) > 0:     # 判断之前是否有entity
-                item['entities'].append(create_ner_list(entity_name, entity_start, idx-1, pre_tag[2:]))
-                # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
-                entity_name = ""
+                if tag[2:] != pre_tag[2:]:
+                    item["entities"].append(create_ner_dict(entity_name, entity_start, idx-1, pre_tag[2:]))
+                    entity_name = ""
             
             entity_name += char
             entity_start = idx
             pre_tag = tag
             if idx == len(string)-1:   # 句子的结尾处理
-                item['entities'].append(create_ner_list(entity_name, entity_start, idx, pre_tag[2:]))
+                item["entities"].append(create_ner_dict(entity_name, entity_start, idx, pre_tag[2:]))
                 # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
         elif tag[0] == "I":
+            if tag[2:] != pre_tag[2:]:
+                item["entities"].append(create_ner_dict(entity_name, entity_start, idx-1, pre_tag[2:]))
+                entity_name = ""
             entity_name += char
             pre_tag = tag
             if idx == len(string)-1:   # 句子的结尾处理
-                item['entities'].append(create_ner_list(entity_name, entity_start, idx, pre_tag[2:]))
+                item["entities"].append(create_ner_dict(entity_name, entity_start, idx, pre_tag[2:]))
                 # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx, "type": tag[2:]})
         else:
             if len(entity_name) > 0:
-                item['entities'].append(create_ner_list(entity_name, entity_start, idx-1, pre_tag[2:]))
+                item["entities"].append(create_ner_dict(entity_name, entity_start, idx-1, pre_tag[2:]))
                 # item["entities"].append({"word": entity_name, "start": entity_start, "end": idx-1, "type": pre_tag[2:]})
                 entity_name = ""
         idx += 1
@@ -247,11 +250,17 @@ def result_to_json_bio(string, tags):
 
 def create_ner_list(entity_name, entity_start, idx, tag):
     ret_list = []
-    ret_list.append('word：{}'.format(entity_name))
+    ret_list.append("'word':'{}'".format(entity_name))
     # ret_list.append('start：{}'.format(entity_start))
     # ret_list.append('end：{}'.format(idx))
-    ret_list.append('type：{}'.format(tag))
+    ret_list.append("'type':'{}'".format(tag))
     return ret_list
+
+def create_ner_dict(entity_name, entity_start, idx, tag):
+    ret_dist = OrderedDict()
+    ret_dist["type"] = tag
+    ret_dist["word"] = entity_name
+    return dict(ret_dist)
 
 
 

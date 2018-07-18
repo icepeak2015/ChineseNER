@@ -1,0 +1,299 @@
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+思 B-SENTI
+念 I-SENTI
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+思 B-SENTI
+念 I-SENTI
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+思 B-SENTI
+念 I-SENTI
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+思 B-SENTI
+念 I-SENTI
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+思 B-SENTI
+念 I-SENTI
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+华 B-LANG
+语 I-LANG
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+华 B-LANG
+语 I-LANG
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+华 B-LANG
+语 I-LANG
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+华 B-LANG
+语 I-LANG
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+华 B-LANG
+语 I-LANG
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+经 B-THEME
+典 I-THEME
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+经 B-THEME
+典 I-THEME
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+经 B-THEME
+典 I-THEME
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+经 B-THEME
+典 I-THEME
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+经 B-THEME
+典 I-THEME
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+旅 B-SCENE
+行 I-SCENE
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+旅 B-SCENE
+行 I-SCENE
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+旅 B-SCENE
+行 I-SCENE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+旅 B-SCENE
+行 I-SCENE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+旅 B-SCENE
+行 I-SCENE
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+午 B-SCENE
+休 I-SCENE
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+午 B-SCENE
+休 I-SCENE
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+午 B-SCENE
+休 I-SCENE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+午 B-SCENE
+休 I-SCENE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+午 B-SCENE
+休 I-SCENE
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+朋 B-STYLE
+克 I-STYLE
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+朋 B-STYLE
+克 I-STYLE
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+朋 B-STYLE
+克 I-STYLE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+朋 B-STYLE
+克 I-STYLE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+朋 B-STYLE
+克 I-STYLE
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+几 O
+首 O
+轻 B-STYLE
+音 I-STYLE
+乐 I-STYLE
+歌 O
+曲 O
+
+播 B-PLAY
+放 I-PLAY
+一 O
+些 O
+轻 B-STYLE
+音 I-STYLE
+乐 I-STYLE
+的 O
+歌 O
+曲 O
+
+随 B-RANDOM
+机 B-RANDOM
+播 O
+放 O
+轻 B-STYLE
+音 I-STYLE
+乐 I-STYLE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+轻 B-STYLE
+音 I-STYLE
+乐 I-STYLE
+音 O
+乐 O
+
+播 B-PLAY
+放 I-PLAY
+轻 B-STYLE
+音 I-STYLE
+乐 I-STYLE
+
